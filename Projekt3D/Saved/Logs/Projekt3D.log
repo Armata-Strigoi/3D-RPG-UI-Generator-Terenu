@@ -1,0 +1,1143 @@
+﻿Log file open, 02/26/21 14:18:28
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: Projekt3D
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.288633
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogLuminAPIImpl: Warning: MLSDK not found.  This likely means the MLSDK environment variable is not set.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-15228867
+LogInit: Engine Version: 4.26.1-15228867+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 2004) (), CPU: AMD Ryzen 7 1700 Eight-Core Processor          , GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Jan 28 2021 07:07:34
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line:  -EpicPortal -epicusername=TheMrArc -epicuserid=c2aaa1e29a614ed8ad903368359d2b56 -epiclocale=pl
+LogInit: Base Directory: T:/UnrealEngine/UE_4.26/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Saved/Config/Windows/Engine.ini]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Saved/Config/Windows/Engine.ini]
+[2021.02.26-13.18.29:487][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Saved/Config/Windows/Engine.ini]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Saved/Config/Windows/Engine.ini]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.02.26-13.18.29:487][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Saved/Config/Windows/Engine.ini]
+[2021.02.26-13.18.29:487][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Saved/Config/Windows/Engine.ini]
+[2021.02.26-13.18.29:519][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Saved/Config/Windows/Scalability.ini]
+[2021.02.26-13.18.29:519][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.26-13.18.29:519][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.26-13.18.29:519][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Saved/Config/Windows/Scalability.ini]
+[2021.02.26-13.18.29:519][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.26-13.18.29:519][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Saved/Config/Windows/Scalability.ini]
+[2021.02.26-13.18.29:519][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.26-13.18.29:519][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.26-13.18.29:519][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.26-13.18.29:519][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.26-13.18.29:519][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.26-13.18.29:519][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.26-13.18.29:519][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.26-13.18.29:519][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.26-13.18.29:519][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.26-13.18.29:519][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.26-13.18.29:519][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.26-13.18.29:519][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.26-13.18.29:519][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.26-13.18.29:519][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.26-13.18.29:519][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.26-13.18.29:519][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Saved/Config/Windows/Scalability.ini]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Saved/Config/Windows/Scalability.ini]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Saved/Config/Windows/Scalability.ini]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.26-13.18.29:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Saved/Config/Windows/Scalability.ini]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Saved/Config/Windows/Scalability.ini]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.02.26-13.18.29:521][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.26-13.18.29:521][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.02.26-13.18.29:521][  0]LogHAL: Display: Platform has ~ 16 GB [17124421632 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.02.26-13.18.29:521][  0]LogInit: Going up to parent DeviceProfile []
+[2021.02.26-13.18.29:521][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Saved/Config/Windows/Scalability.ini]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Saved/Config/Windows/Scalability.ini]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Saved/Config/Windows/Scalability.ini]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Saved/Config/Windows/Scalability.ini]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.26-13.18.29:521][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Saved/Config/Windows/Scalability.ini]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Saved/Config/Windows/Scalability.ini]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Saved/Config/Windows/Scalability.ini]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Saved/Config/Windows/Scalability.ini]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.02.26-13.18.29:522][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.02.26-13.18.29:523][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.02.26-13.18.29:523][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.02.26-13.18.29:523][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.02.26-13.18.29:523][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Saved/Config/Windows/Engine.ini]
+[2021.02.26-13.18.29:523][  0]LogInit: Computer: DESKTOP-H75SLG5
+[2021.02.26-13.18.29:523][  0]LogInit: User: Arc
+[2021.02.26-13.18.29:523][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.02.26-13.18.29:523][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.02.26-13.18.29:523][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.02.26-13.18.29:523][  0]LogMemory: Platform Memory Stats for Windows
+[2021.02.26-13.18.29:523][  0]LogMemory: Process Physical Memory: 140.57 MB used, 140.57 MB peak
+[2021.02.26-13.18.29:523][  0]LogMemory: Process Virtual Memory: 129.25 MB used, 129.25 MB peak
+[2021.02.26-13.18.29:523][  0]LogMemory: Physical Memory: 10301.61 MB used,  6029.51 MB free, 16331.12 MB total
+[2021.02.26-13.18.29:523][  0]LogMemory: Virtual Memory: 134210688.00 MB used,  7041.86 MB free, 134217728.00 MB total
+[2021.02.26-13.18.29:530][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.02.26-13.18.29:588][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.02.26-13.18.29:589][  0]LogInit: Using OS detected language (pl-PL).
+[2021.02.26-13.18.29:589][  0]LogInit: Using OS detected locale (pl-PL).
+[2021.02.26-13.18.29:592][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
+[2021.02.26-13.18.29:592][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
+[2021.02.26-13.18.29:592][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
+[2021.02.26-13.18.29:592][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
+[2021.02.26-13.18.29:592][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
+[2021.02.26-13.18.29:592][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
+[2021.02.26-13.18.29:593][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
+[2021.02.26-13.18.29:593][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
+[2021.02.26-13.18.29:594][  0]LogInit: Setting process to per monitor DPI aware
+[2021.02.26-13.18.29:608][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.02.26-13.18.29:653][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.02.26-13.18.29:653][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.02.26-13.18.29:959][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.26-13.18.29:959][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.02.26-13.18.29:959][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.02.26-13.18.29:959][  0]LogD3D11RHI: D3D11 adapters:
+[2021.02.26-13.18.30:085][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2021.02.26-13.18.30:085][  0]LogD3D11RHI:       6052/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.02.26-13.18.30:088][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.02.26-13.18.30:088][  0]LogD3D11RHI:       0/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.02.26-13.18.30:088][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.02.26-13.18.30:097][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.02.26-13.18.30:097][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2021.02.26-13.18.30:097][  0]LogWindows: EnumDisplayDevices:
+[2021.02.26-13.18.30:097][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2021.02.26-13.18.30:098][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2021.02.26-13.18.30:098][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2021.02.26-13.18.30:098][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2021.02.26-13.18.30:098][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.02.26-13.18.30:098][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2021.02.26-13.18.30:098][  0]LogD3D11RHI:   Driver Version: 461.40 (internal:27.21.14.6140, unified:461.40)
+[2021.02.26-13.18.30:098][  0]LogD3D11RHI:      Driver Date: 1-22-2021
+[2021.02.26-13.18.30:098][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2021.02.26-13.18.30:197][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.02.26-13.18.30:197][  0]LogD3D11RHI: Async texture creation enabled
+[2021.02.26-13.18.30:197][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.02.26-13.18.30:199][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061080).
+[2021.02.26-13.18.30:225][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.02.26-13.18.30:227][  0]LogRHI: GeForceNow SDK initialized: 1
+[2021.02.26-13.18.30:636][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.02.26-13.18.30:667][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.02.26-13.18.30:667][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.02.26-13.18.30:667][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.02.26-13.18.30:667][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.02.26-13.18.30:667][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.02.26-13.18.30:667][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.02.26-13.18.30:667][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.02.26-13.18.30:667][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.02.26-13.18.30:667][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.02.26-13.18.30:667][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.02.26-13.18.30:698][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.02.26-13.18.30:698][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.02.26-13.18.30:710][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.02.26-13.18.30:722][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.02.26-13.18.30:733][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.02.26-13.18.30:744][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.02.26-13.18.30:755][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.02.26-13.18.30:767][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.02.26-13.18.30:779][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.02.26-13.18.30:811][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.02.26-13.18.30:811][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.02.26-13.18.30:821][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2021.02.26-13.18.30:833][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2021.02.26-13.18.30:844][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2021.02.26-13.18.30:855][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2021.02.26-13.18.30:874][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.02.26-13.18.30:875][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.02.26-13.18.30:886][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.02.26-13.18.30:898][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.02.26-13.18.30:910][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.02.26-13.18.30:922][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.02.26-13.18.30:922][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.02.26-13.18.30:933][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.02.26-13.18.31:023][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.02.26-13.18.31:023][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Intermediate/Shaders/WorkingDirectory/15068/).
+[2021.02.26-13.18.31:024][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Arc/AppData/Local/Temp/UnrealShaderWorkingDir/F54BC5EC4B2314497D0320A70CC15CC2/'.
+[2021.02.26-13.18.31:024][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.02.26-13.18.31:024][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.02.26-13.18.32:005][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.02.26-13.18.32:062][  0]LogDerivedDataCache: Loaded boot cache 0.06s 77MB C:/Users/Arc/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.02.26-13.18.32:062][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Arc/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2021.02.26-13.18.32:062][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.02.26-13.18.32:062][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.02.26-13.18.32:062][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.26-13.18.32:062][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.02.26-13.18.32:078][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.02.26-13.18.32:078][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.26-13.18.32:078][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.02.26-13.18.32:105][  0]LogDerivedDataCache: Speed tests for C:/Users/Arc/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.03 seconds
+[2021.02.26-13.18.32:105][  0]LogDerivedDataCache: Display: Performance to C:/Users/Arc/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.04ms. RandomReadSpeed=802.08MBs, RandomWriteSpeed=36.99MBs. Assigned SpeedClass 'Local'
+[2021.02.26-13.18.32:106][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Arc/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.02.26-13.18.32:106][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.02.26-13.18.32:106][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.02.26-13.18.32:167][  0]LogSlate: Using FreeType 2.10.0
+[2021.02.26-13.18.32:168][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.02.26-13.18.32:197][  0]LogAssetRegistry: FAssetRegistry took 0.0029 seconds to start up
+[2021.02.26-13.18.32:490][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.26-13.18.32:490][  0]LogInit: Active device profile: [000001D7EFC8B800][000001D7EB1DC9C0 49] Windows
+[2021.02.26-13.18.32:490][  0]LogInit: Profiles: [000001D7EFC8B800][000001D7EB1DC9C0 49] Windows, [000001D7EFC44900][000001D7E820AB40 49] WindowsNoEditor, [000001D7EFC88900][000001D7E7D94CC0 49] WindowsServer, [000001D7EFC47000][000001D7E7D98E40 49] WindowsClient, [000001D7EFC8AF00][000001D7E7D9CFC0 49] IOS, [000001D7EFC45300][000001D7E7DA1140 49] iPadAir, [000001D7EFC89200][000001D7E7DA52C0 49] iPadAir2, [000001D7F07F8B00][000001D7E743D540 49] IPadPro, [000001D7F07F8C00][000001D7E7DA9580 49] iPadAir3, [000001D7EFC8A900][000001D7E7DAD6C0 49] iPadAir4, [000001D7F07FBC00][000001D7E7DB1800 49] iPadMini2, [000001D7EFC89700][000001D7E7DB5940 49] iPadMini3, [000001D7F07FA000][000001D7E7DBDAC0 49] iPadMini4, [000001D7EFC8BB00][000001D7E7DC1C40 49] iPadMini5, [000001D7EFC44800][000001D7E7DC8240 49] iPhone6, [000001D7EFC47700][000001D7E7DC4280 49] iPodTouch6, [000001D7F07F8E00][000001D7E7DD0540 49] iPhone7, [000001D7F07FA600][000001D7E7DCC580 49] iPodTouch7, [000001D7EFC47F00][000001D7E7DD4700 49] iPhone5S, [000001D7F07FAC00][000001D7E7DD8880 49] iPhone6Plus, [000001D7EFC46700][000001D7E7DDCA00 49] iPhone6S, [000001D7F07FB200][000001D7E7DE0B80 49] iPhone6SPlus, [000001D7EFC45D00][000001D7E7DE4D00 49] iPhone7Plus, [000001D7F07FA900][000001D7E7DE8E80 49] iPhoneSE, [000001D7EFC47200][000001D7E7DED000 49] iPhone8, [000001D7F07FA500][000001D7E7DF1180 49] iPhone8Plus, [000001D7EFC47E00][000001D7E7DF5300 49] iPhoneX, [000001D7F07F8500][000001D7E7DF9480 49] iPhoneXS, [000001D7EFC44300][000001D7E7DB95C0 49] iPhoneXSMax, [000001D7F07F9300][000001D7E7DFD700 49] iPhoneXR, [000001D7EFC47B00][000001D7E43D5840 49] iPhone11, [000001D7F07FB300][000001D7E43D9980 49] iPhone11Pro, [000001D7EFC46300][000001D7E43E1B00 49] iPhone11ProMax, [000001D7F07F9F00][000001D7E43E5C80 49] iPhoneSE2, [000001D7EFC44200][000001D7E43E8140 49] iPhone12Mini, [000001D7F07F8900][000001D7E43EC2C0 49] iPhone12, [000001D7EFC47C00][000001D7E43F0440 49] iPhone12Pro, [000001D7F07F9900][000001D7E43F45C0 49] iPhone12ProMax, [000001D7EFC45C00][000001D7E43F8740 49] iPadPro105, [000001D7F07FBE00][000001D7E43FC8C0 49] iPadPro129, [000001D7EFC44400][000001D7E4400A40 49] iPadPro97, [000001D7F07F8D00][000001D7E4404BC0 49] iPadPro2_129, [000001D7EFC45400][000001D7E4408D40 49] iPad5, [000001D7F07F8700][000001D7E440CEC0 49] iPad6, [000001D7EFC47400][000001D7E4411040 49] iPad7, [000001D7F07F9000][000001D7E44151C0 49] iPad8, [000001D7EFC46A00][000001D7E4419340 49] iPadPro11, [000001D7F07FA400][000001D7E441D4C0 49] iPadPro2_11, [000001D7EFC44D00][000001D7E4421640 49] iPadPro3_129, [000001D7F07FB500][000001D7E43DD780 49] iPadPro4_129, [000001D7EFC47500][000001D7E44258C0 49] AppleTV, [000001D7F07F9400][000001D7E4429A00 49] AppleTV4K, [000001D7EFC46200][000001D7E4431B80 49] TVOS, [000001D7F07FB400][000001D7E4435D00 49] Mac, [000001D7EFC45800][000001D7E44381C0 49] MacClient, [000001D7F07FAE00][000001D7E443C340 49] MacNoEditor, [000001D7EFC46900][000001D7E44404C0 49] MacServer, [000001D7F07FA300][000001D7E4444640 49] Linux, [000001D7EFC45700][000001D7E44487C0 49] LinuxNoEditor, [000001D7F07F9700][000001D7E444C940 49] LinuxAArch64NoEditor, [000001D7EFC46C00][000001D7E4450AC0 49] LinuxClient, [000001D7EFC88800][000001D7E4454C40 49] LinuxAArch64Client, [000001D7EFCD8100][000001D7E4458DC0 49] LinuxServer, [000001D7EFC8BC00][000001D7E445CF40 49] LinuxAArch64Server, [000001D7EFCD8500][000001D7E44610C0 49] Android, [000001D7EFC89900][000001D7E4465240 49] Android_Low, [000001D7EFCD8700][000001D7E44693C0 49] Android_Mid, [000001D7EFC8B200][000001D7E446D540 49] Android_High, [000001D7EFCD9700][000001D7E44716C0 49] Android_Default, [000001D7EFC8B300][000001D7E442D800 49] Android_Adreno4xx, [000001D7EFCD9B00][000001D7E4475940 49] Android_Adreno5xx_Low, [000001D7EFC89300][000001D7E4479A80 49] Android_Adreno5xx, [000001D7EFCD9900][000001D7E4481C00 49] Android_Adreno6xx, [000001D7EFC88A00][000001D7E44840C0 49] Android_Adreno6xx_Vulkan, [000001D7EFCD9100][000001D7E4488240 49] Android_Mali_T6xx, [000001D7EFC8BA00][000001D7E448C3C0 49] Android_Mali_T7xx, [000001D7EFCD9300][000001D7E4490540 49] Android_Mali_T8xx, [000001D7EFC47600][000001D7E44946C0 49] Android_Mali_G71, [000001D7F07FAF00][000001D7E4498840 49] Android_Mali_G72, [000001D7EFC45200][000001D7E449C9C0 49] Android_Mali_G72_Vulkan, [000001D7F07F8100][000001D7E44A0B40 49] Android_Mali_G76, [000001D7EFC45A00][000001D7E44A4CC0 49] Android_Mali_G76_Vulkan, [000001D7F07F8800][000001D7E44A8E40 49] Android_Mali_G77, [000001D7EFC46800][000001D7E44ACFC0 49] Android_Mali_G77_Vulkan, [000001D7F07FBA00][000001D7E44B1140 49] Android_Vulkan_SM5, [000001D7EFC45000][000001D7E44B52C0 49] Android_PowerVR_G6xxx, [000001D7F07F9200][000001D7E44B9440 49] Android_PowerVR_GT7xxx, [000001D7EFC45600][000001D7E44BD5C0 49] Android_PowerVR_GE8xxx, [000001D7F07FA700][000001D7E44C1740 49] Android_PowerVR_GM9xxx, [000001D7EFCDA000][000001D7E447D880 49] Android_PowerVR_GM9xxx_Vulkan, [000001D7F07F9500][000001D7E44C59C0 49] Android_TegraK1, [000001D7EFCD8800][000001D7E44C9B00 49] Android_Unknown_Vulkan, [000001D7F07FB700][000001D7E44CDC40 49] Lumin, [000001D7EFCD9500][000001D7E44D4100 49] Lumin_Desktop, [000001D7F07F9100][000001D7E44D8280 49] HoloLens, 
+[2021.02.26-13.18.32:626][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.02.26-13.18.32:626][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.02.26-13.18.32:626][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.02.26-13.18.32:626][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.02.26-13.18.32:626][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.02.26-13.18.32:681][  0]LogNetVersion: Projekt3D 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 1700373812)
+[2021.02.26-13.18.33:234][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2021.02.26-13.18.33:301][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.066399 seconds
+[2021.02.26-13.18.33:308][  0]LogUObjectArray: 16830 objects as part of root set at end of initial load.
+[2021.02.26-13.18.33:308][  0]LogUObjectAllocator: 4209472 out of 0 bytes used by permanent object pool.
+[2021.02.26-13.18.33:308][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.02.26-13.18.33:715][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.02.26-13.18.33:739][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.02.26-13.18.34:295][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.02.26-13.18.34:315][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.26-13.18.34:315][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.26-13.18.34:414][  0]SourceControl: Source control is disabled
+[2021.02.26-13.18.34:414][  0]SourceControl: Source control is disabled
+[2021.02.26-13.18.34:420][  0]SourceControl: Source control is disabled
+[2021.02.26-13.18.34:426][  0]SourceControl: Source control is disabled
+[2021.02.26-13.18.34:439][  0]SourceControl: Source control is disabled
+[2021.02.26-13.18.34:444][  0]LogUProjectInfo: Found projects:
+[2021.02.26-13.18.34:493][  0]LogCollectionManager: Loaded 0 collections in 0.002670 seconds
+[2021.02.26-13.18.34:527][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Saved/Collections/' took 0.00s
+[2021.02.26-13.18.34:527][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/Developers/Arc/Collections/' took 0.00s
+[2021.02.26-13.18.34:527][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/Collections/' took 0.00s
+[2021.02.26-13.18.34:527][  0]LogOcInput: OculusInput pre-init called
+[2021.02.26-13.18.34:542][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.02.26-13.18.34:542][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.02.26-13.18.34:611][  0]LogEngine: Initializing Engine...
+[2021.02.26-13.18.34:612][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.26-13.18.34:627][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.02.26-13.18.34:628][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.02.26-13.18.34:774][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.02.26-13.18.34:784][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.02.26-13.18.34:799][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.02.26-13.18.34:804][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.02.26-13.18.34:804][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.02.26-13.18.34:804][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.26-13.18.34:804][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.26-13.18.34:804][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.26-13.18.34:804][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.26-13.18.34:804][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.26-13.18.34:804][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.26-13.18.34:804][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.26-13.18.34:804][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.26-13.18.34:804][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.26-13.18.34:804][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.26-13.18.34:830][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.26-13.18.34:830][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.02.26-13.18.34:830][  0]LogAudioMixer: Display: 2: FrontCenter
+[2021.02.26-13.18.34:830][  0]LogAudioMixer: Display: 3: LowFrequency
+[2021.02.26-13.18.34:830][  0]LogAudioMixer: Display: 4: BackLeft
+[2021.02.26-13.18.34:830][  0]LogAudioMixer: Display: 5: BackRight
+[2021.02.26-13.18.34:830][  0]LogAudioMixer: Display: 6: SideLeft
+[2021.02.26-13.18.34:830][  0]LogAudioMixer: Display: 7: SideRight
+[2021.02.26-13.18.35:093][  0]LogAudioMixer: Display: Using Audio Device Zestaw słuchawkowy (CORSAIR VOID PRO Wireless Gaming Headset)
+[2021.02.26-13.18.35:093][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.26-13.18.35:096][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.26-13.18.35:096][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.26-13.18.35:098][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.26-13.18.35:098][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.26-13.18.35:098][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2021.02.26-13.18.35:099][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.26-13.18.35:099][  0]LogInit: FAudioDevice initialized.
+[2021.02.26-13.18.35:100][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.26-13.18.35:100][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.02.26-13.18.35:100][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.02.26-13.18.35:339][  0]LogDerivedDataCache: Saved boot cache 0.24s 77MB C:/Users/Arc/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.02.26-13.18.35:341][  0]LogInit: Texture streaming: Enabled
+[2021.02.26-13.18.35:359][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.1-15228867+++UE4+Release-4.26
+[2021.02.26-13.18.35:364][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.02.26-13.18.35:364][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.02.26-13.18.35:366][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.02.26-13.18.35:391][  0]LogInit: Transaction tracking system initialized
+[2021.02.26-13.18.35:423][  0]BlueprintLog: New page: Editor Load
+[2021.02.26-13.18.35:561][  0]LocalizationService: Localization service is disabled
+[2021.02.26-13.18.35:594][  0]TimingProfiler: Initialize
+[2021.02.26-13.18.35:594][  0]TimingProfiler: OnSessionChanged
+[2021.02.26-13.18.35:594][  0]LoadingProfiler: Initialize
+[2021.02.26-13.18.35:594][  0]LoadingProfiler: OnSessionChanged
+[2021.02.26-13.18.35:594][  0]NetworkingProfiler: Initialize
+[2021.02.26-13.18.35:594][  0]NetworkingProfiler: OnSessionChanged
+[2021.02.26-13.18.35:594][  0]MemoryProfiler: Initialize
+[2021.02.26-13.18.35:594][  0]MemoryProfiler: OnSessionChanged
+[2021.02.26-13.18.35:995][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.02.26-13.18.35:995][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/' took 0.00s
+[2021.02.26-13.18.35:995][  0]LogCook: Display: Mobile HDR setting 1
+[2021.02.26-13.18.36:454][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2021.02.26-13.18.36:465][  0]SourceControl: Source control is disabled
+[2021.02.26-13.18.36:465][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.275
+[2021.02.26-13.18.36:551][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 T:/UnrealEngine/UE_4.26/FeaturePacks/StarterContent.upack)
+[2021.02.26-13.18.36:574][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.02.26-13.18.36:575][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.36:575][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.02.26-13.18.37:718][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2021.02.26-13.18.37:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2021.02.26-13.18.37:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2021.02.26-13.18.38:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2021.02.26-13.18.38:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2021.02.26-13.18.38:475][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2021.02.26-13.18.38:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2021.02.26-13.18.38:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2021.02.26-13.18.38:757][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2021.02.26-13.18.38:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2021.02.26-13.18.38:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2021.02.26-13.18.38:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2021.02.26-13.18.39:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Audio/Collapse01.uasset"
+[2021.02.26-13.18.39:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Audio/Collapse02.uasset"
+[2021.02.26-13.18.39:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2021.02.26-13.18.39:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Audio/Explosion01.uasset"
+[2021.02.26-13.18.39:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Audio/Explosion02.uasset"
+[2021.02.26-13.18.39:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2021.02.26-13.18.39:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Audio/Fire01.uasset"
+[2021.02.26-13.18.39:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2021.02.26-13.18.39:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2021.02.26-13.18.39:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2021.02.26-13.18.40:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Audio/Light01.uasset"
+[2021.02.26-13.18.40:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2021.02.26-13.18.40:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Audio/Light02.uasset"
+[2021.02.26-13.18.40:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2021.02.26-13.18.40:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Audio/Smoke01.uasset"
+[2021.02.26-13.18.40:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2021.02.26-13.18.40:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2021.02.26-13.18.40:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2021.02.26-13.18.41:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2021.02.26-13.18.41:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2021.02.26-13.18.41:136][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2021.02.26-13.18.41:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2021.02.26-13.18.41:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Audio/Steam01.uasset"
+[2021.02.26-13.18.41:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2021.02.26-13.18.41:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2021.02.26-13.18.41:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2021.02.26-13.18.41:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2021.02.26-13.18.41:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2021.02.26-13.18.41:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2021.02.26-13.18.41:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2021.02.26-13.18.41:351][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2021.02.26-13.18.41:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2021.02.26-13.18.41:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2021.02.26-13.18.41:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2021.02.26-13.18.41:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2021.02.26-13.18.41:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2021.02.26-13.18.42:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2021.02.26-13.18.42:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2021.02.26-13.18.43:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2021.02.26-13.18.43:632][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2021.02.26-13.18.46:816][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2021.02.26-13.18.46:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2021.02.26-13.18.46:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2021.02.26-13.18.46:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Maps/Minimal_Default.umap"
+[2021.02.26-13.18.47:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2021.02.26-13.18.47:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Maps/StarterMap.umap"
+[2021.02.26-13.18.47:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2021.02.26-13.18.47:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2021.02.26-13.18.47:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2021.02.26-13.18.47:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2021.02.26-13.18.47:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2021.02.26-13.18.47:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2021.02.26-13.18.47:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2021.02.26-13.18.47:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2021.02.26-13.18.47:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2021.02.26-13.18.47:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2021.02.26-13.18.47:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2021.02.26-13.18.47:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2021.02.26-13.18.47:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2021.02.26-13.18.47:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2021.02.26-13.18.47:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2021.02.26-13.18.47:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2021.02.26-13.18.47:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2021.02.26-13.18.48:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2021.02.26-13.18.48:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Glass.uasset"
+[2021.02.26-13.18.48:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2021.02.26-13.18.48:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2021.02.26-13.18.48:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2021.02.26-13.18.48:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2021.02.26-13.18.48:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2021.02.26-13.18.48:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2021.02.26-13.18.48:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2021.02.26-13.18.48:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2021.02.26-13.18.48:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2021.02.26-13.18.48:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2021.02.26-13.18.48:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2021.02.26-13.18.48:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2021.02.26-13.18.48:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2021.02.26-13.18.48:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2021.02.26-13.18.48:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2021.02.26-13.18.48:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2021.02.26-13.18.48:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2021.02.26-13.18.48:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2021.02.26-13.18.48:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2021.02.26-13.18.48:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2021.02.26-13.18.48:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2021.02.26-13.18.48:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2021.02.26-13.18.48:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2021.02.26-13.18.48:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2021.02.26-13.18.48:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2021.02.26-13.18.48:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2021.02.26-13.18.48:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Particles/P_Explosion.uasset"
+[2021.02.26-13.18.48:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Particles/P_Fire.uasset"
+[2021.02.26-13.18.48:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Particles/P_Smoke.uasset"
+[2021.02.26-13.18.48:378][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Particles/P_Sparks.uasset"
+[2021.02.26-13.18.48:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2021.02.26-13.18.48:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2021.02.26-13.18.48:389][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2021.02.26-13.18.48:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2021.02.26-13.18.48:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2021.02.26-13.18.48:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2021.02.26-13.18.48:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2021.02.26-13.18.48:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2021.02.26-13.18.48:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2021.02.26-13.18.48:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2021.02.26-13.18.48:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2021.02.26-13.18.48:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/MaterialSphere.uasset"
+[2021.02.26-13.18.48:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/SM_Bush.uasset"
+[2021.02.26-13.18.48:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/SM_Chair.uasset"
+[2021.02.26-13.18.48:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2021.02.26-13.18.48:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/SM_Couch.uasset"
+[2021.02.26-13.18.48:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/SM_Door.uasset"
+[2021.02.26-13.18.48:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2021.02.26-13.18.48:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2021.02.26-13.18.48:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2021.02.26-13.18.48:469][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2021.02.26-13.18.48:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2021.02.26-13.18.48:531][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2021.02.26-13.18.48:534][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2021.02.26-13.18.48:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/SM_Rock.uasset"
+[2021.02.26-13.18.48:540][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/SM_Shelf.uasset"
+[2021.02.26-13.18.48:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/SM_Stairs.uasset"
+[2021.02.26-13.18.48:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/SM_Statue.uasset"
+[2021.02.26-13.18.48:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/SM_TableRound.uasset"
+[2021.02.26-13.18.48:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2021.02.26-13.18.48:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2021.02.26-13.18.48:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2021.02.26-13.18.48:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2021.02.26-13.18.48:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2021.02.26-13.18.48:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2021.02.26-13.18.48:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2021.02.26-13.18.48:581][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2021.02.26-13.18.48:585][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2021.02.26-13.18.48:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2021.02.26-13.18.48:593][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2021.02.26-13.18.48:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2021.02.26-13.18.48:613][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2021.02.26-13.18.48:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2021.02.26-13.18.48:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2021.02.26-13.18.48:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2021.02.26-13.18.48:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2021.02.26-13.18.48:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2021.02.26-13.18.48:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2021.02.26-13.18.48:654][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2021.02.26-13.18.48:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2021.02.26-13.18.48:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2021.02.26-13.18.48:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2021.02.26-13.18.48:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2021.02.26-13.18.48:676][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2021.02.26-13.18.48:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2021.02.26-13.18.48:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2021.02.26-13.18.48:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2021.02.26-13.18.48:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2021.02.26-13.18.48:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2021.02.26-13.18.48:714][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2021.02.26-13.18.48:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2021.02.26-13.18.48:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2021.02.26-13.18.48:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2021.02.26-13.18.48:968][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2021.02.26-13.18.49:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2021.02.26-13.18.49:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2021.02.26-13.18.49:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2021.02.26-13.18.49:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2021.02.26-13.18.49:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2021.02.26-13.18.49:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2021.02.26-13.18.49:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2021.02.26-13.18.49:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2021.02.26-13.18.49:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2021.02.26-13.18.49:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2021.02.26-13.18.49:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2021.02.26-13.18.49:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2021.02.26-13.18.49:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2021.02.26-13.18.49:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2021.02.26-13.18.49:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2021.02.26-13.18.49:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2021.02.26-13.18.49:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2021.02.26-13.18.49:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2021.02.26-13.18.50:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2021.02.26-13.18.50:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2021.02.26-13.18.50:226][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2021.02.26-13.18.50:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2021.02.26-13.18.50:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2021.02.26-13.18.50:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2021.02.26-13.18.50:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2021.02.26-13.18.50:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2021.02.26-13.18.50:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2021.02.26-13.18.50:798][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2021.02.26-13.18.50:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2021.02.26-13.18.50:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2021.02.26-13.18.51:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2021.02.26-13.18.51:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2021.02.26-13.18.51:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2021.02.26-13.18.51:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2021.02.26-13.18.51:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2021.02.26-13.18.51:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2021.02.26-13.18.51:378][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Door_M.uasset"
+[2021.02.26-13.18.51:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Door_N.uasset"
+[2021.02.26-13.18.51:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2021.02.26-13.18.51:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2021.02.26-13.18.51:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2021.02.26-13.18.51:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2021.02.26-13.18.51:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2021.02.26-13.18.51:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2021.02.26-13.18.51:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2021.02.26-13.18.51:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2021.02.26-13.18.51:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2021.02.26-13.18.51:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2021.02.26-13.18.52:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2021.02.26-13.18.52:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2021.02.26-13.18.52:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2021.02.26-13.18.52:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2021.02.26-13.18.52:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2021.02.26-13.18.52:585][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2021.02.26-13.18.52:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2021.02.26-13.18.52:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2021.02.26-13.18.52:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2021.02.26-13.18.52:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2021.02.26-13.18.53:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2021.02.26-13.18.53:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2021.02.26-13.18.53:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2021.02.26-13.18.53:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2021.02.26-13.18.53:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2021.02.26-13.18.53:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2021.02.26-13.18.53:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2021.02.26-13.18.53:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2021.02.26-13.18.53:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2021.02.26-13.18.53:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2021.02.26-13.18.53:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2021.02.26-13.18.53:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2021.02.26-13.18.54:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2021.02.26-13.18.54:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2021.02.26-13.18.54:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2021.02.26-13.18.54:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2021.02.26-13.18.54:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2021.02.26-13.18.54:404][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2021.02.26-13.18.54:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2021.02.26-13.18.54:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2021.02.26-13.18.54:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2021.02.26-13.18.54:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2021.02.26-13.18.54:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2021.02.26-13.18.54:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2021.02.26-13.18.54:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2021.02.26-13.18.54:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2021.02.26-13.18.54:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2021.02.26-13.18.54:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2021.02.26-13.18.54:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2021.02.26-13.18.54:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2021.02.26-13.18.54:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2021.02.26-13.18.54:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Water_M.uasset"
+[2021.02.26-13.18.54:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Water_N.uasset"
+[2021.02.26-13.18.54:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2021.02.26-13.18.54:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2021.02.26-13.18.54:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2021.02.26-13.18.54:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2021.02.26-13.18.55:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2021.02.26-13.18.55:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2021.02.26-13.18.55:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2021.02.26-13.18.55:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2021.02.26-13.18.55:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2021.02.26-13.18.55:601][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2021.02.26-13.18.55:850][  0]LogSavePackage: Moving 'C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Saved/Floor_400x4009E384CA5478C61E7C68A45B03F7BF219.tmp' to 'C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2021.02.26-13.18.55:865][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2021.02.26-13.18.55:866][  0]Cmd: MAP LOAD FILE="C:/Users/Arc/Desktop/Polibuda/Sezon6/PROJEKT/3D-UE4/Projekt3D/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.02.26-13.18.55:869][  0]LightingResults: New page: Lighting Build
+[2021.02.26-13.18.55:870][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.02.26-13.18.55:870][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.26-13.18.55:870][  0]MapCheck: New page: Map Check
+[2021.02.26-13.18.55:870][  0]LightingResults: New page: Lighting Build
+[2021.02.26-13.18.55:879][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2021.02.26-13.18.56:484][  0]LogTexture: Display: Building textures: DeprecatedTextureD6C57B644F03DADF4F2699848FAEA3C3 (BGRA8, 128X128)
+[2021.02.26-13.18.56:489][  0]LogTexture: Display: Building textures: DeprecatedTexture8D91C9AE4C6B8D628CDA3C848426284A (BGRA8, 128X128)
+[2021.02.26-13.18.56:556][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Minimal_Default'.
+[2021.02.26-13.18.56:557][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.02.26-13.18.56:594][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.02.26-13.18.56:600][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2021.02.26-13.18.56:601][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.02.26-13.18.56:601][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,219ms to complete.
+[2021.02.26-13.18.56:601][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.735
+[2021.02.26-13.18.56:603][  0]LogUnrealEdMisc: Total Editor Startup Time, took 28.413
+[2021.02.26-13.18.57:086][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.26-13.18.57:102][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.26-13.18.57:110][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.26-13.18.57:117][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.26-13.18.57:272][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0128 seconds. Added 3601 classes and 859 folders.
+[2021.02.26-13.18.57:310][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.02.26-13.18.57:312][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.02.26-13.18.57:312][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.57:312][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.02.26-13.18.57:313][  0]LogPakFile: OnPakFileMounted2Time == 0.000012
+[2021.02.26-13.18.57:313][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.02.26-13.18.57:314][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.57:314][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.02.26-13.18.57:314][  0]LogPakFile: OnPakFileMounted2Time == 0.000014
+[2021.02.26-13.18.57:314][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2021.02.26-13.18.57:314][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.57:314][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2021.02.26-13.18.57:314][  0]LogPakFile: OnPakFileMounted2Time == 0.000015
+[2021.02.26-13.18.57:315][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.02.26-13.18.57:315][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.57:315][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.02.26-13.18.57:315][  0]LogPakFile: OnPakFileMounted2Time == 0.000016
+[2021.02.26-13.18.57:316][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.02.26-13.18.57:316][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.57:316][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.02.26-13.18.57:316][  0]LogPakFile: OnPakFileMounted2Time == 0.000021
+[2021.02.26-13.18.57:317][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.02.26-13.18.57:317][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.57:317][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.02.26-13.18.57:317][  0]LogPakFile: OnPakFileMounted2Time == 0.000022
+[2021.02.26-13.18.57:318][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.02.26-13.18.57:318][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.57:318][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.02.26-13.18.57:318][  0]LogPakFile: OnPakFileMounted2Time == 0.000024
+[2021.02.26-13.18.57:319][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.02.26-13.18.57:319][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.57:319][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.02.26-13.18.57:319][  0]LogPakFile: OnPakFileMounted2Time == 0.000025
+[2021.02.26-13.18.57:320][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.02.26-13.18.57:320][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.57:320][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.02.26-13.18.57:320][  0]LogPakFile: OnPakFileMounted2Time == 0.000026
+[2021.02.26-13.18.57:321][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.02.26-13.18.57:321][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.57:321][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.02.26-13.18.57:321][  0]LogPakFile: OnPakFileMounted2Time == 0.000028
+[2021.02.26-13.18.57:322][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.02.26-13.18.57:322][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.57:322][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.02.26-13.18.57:322][  0]LogPakFile: OnPakFileMounted2Time == 0.000029
+[2021.02.26-13.18.57:323][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.02.26-13.18.57:323][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.57:323][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.02.26-13.18.57:323][  0]LogPakFile: OnPakFileMounted2Time == 0.000030
+[2021.02.26-13.18.57:324][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.02.26-13.18.57:324][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.57:324][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.02.26-13.18.57:324][  0]LogPakFile: OnPakFileMounted2Time == 0.000032
+[2021.02.26-13.18.57:325][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.02.26-13.18.57:325][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.57:325][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.02.26-13.18.57:325][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2021.02.26-13.18.57:326][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.02.26-13.18.57:326][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.57:326][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.02.26-13.18.57:326][  0]LogPakFile: OnPakFileMounted2Time == 0.000034
+[2021.02.26-13.18.57:327][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.02.26-13.18.57:327][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.57:327][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.02.26-13.18.57:327][  0]LogPakFile: OnPakFileMounted2Time == 0.000036
+[2021.02.26-13.18.57:328][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.02.26-13.18.57:328][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.57:328][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.02.26-13.18.57:328][  0]LogPakFile: OnPakFileMounted2Time == 0.000037
+[2021.02.26-13.18.57:328][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.02.26-13.18.57:328][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.57:329][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.02.26-13.18.57:329][  0]LogPakFile: OnPakFileMounted2Time == 0.000038
+[2021.02.26-13.18.57:329][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.02.26-13.18.57:329][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.57:329][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.02.26-13.18.57:329][  0]LogPakFile: OnPakFileMounted2Time == 0.000040
+[2021.02.26-13.18.57:330][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.02.26-13.18.57:330][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.57:330][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.02.26-13.18.57:330][  0]LogPakFile: OnPakFileMounted2Time == 0.000041
+[2021.02.26-13.18.57:331][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.02.26-13.18.57:331][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.57:331][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.02.26-13.18.57:331][  0]LogPakFile: OnPakFileMounted2Time == 0.000043
+[2021.02.26-13.18.57:332][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.02.26-13.18.57:332][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.57:332][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.02.26-13.18.57:332][  0]LogPakFile: OnPakFileMounted2Time == 0.000044
+[2021.02.26-13.18.57:333][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2021.02.26-13.18.57:333][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.57:333][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2021.02.26-13.18.57:333][  0]LogPakFile: OnPakFileMounted2Time == 0.000045
+[2021.02.26-13.18.57:334][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.02.26-13.18.57:334][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.57:334][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.02.26-13.18.57:334][  0]LogPakFile: OnPakFileMounted2Time == 0.000047
+[2021.02.26-13.18.57:335][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.02.26-13.18.57:335][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.57:335][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.02.26-13.18.57:335][  0]LogPakFile: OnPakFileMounted2Time == 0.000048
+[2021.02.26-13.18.57:336][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.02.26-13.18.57:336][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.02.26-13.18.57:336][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.02.26-13.18.57:336][  0]LogPakFile: OnPakFileMounted2Time == 0.000049
+[2021.02.26-13.18.57:415][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.02.26-13.18.57:486][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.02.26-13.18.57:758][  0]LogSlate: Took 0.000361 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.02.26-13.18.57:761][  0]LogSlate: Took 0.000337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.02.26-13.18.57:811][  0]LogSlate: Took 0.021983 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.02.26-13.18.58:184][  0]LogRenderer: Reallocating scene render targets to support 1288x620 Format 10 NumSamples 1 (Frame:1).
+[2021.02.26-13.18.58:470][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.02.26-13.18.58:470][  0]LogLoad: (Engine Initialization) Total time: 30.28 seconds
+[2021.02.26-13.18.58:470][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.02.26-13.18.58:470][  0]LogInit: First time updating LLM stats...
+[2021.02.26-13.18.58:487][  0]AssetCheck: New page: Asset Save: Floor_400x400
+[2021.02.26-13.18.58:488][  0]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2021.02.26-13.18.58:535][  0]LogAssetRegistry: Asset discovery search completed in 26.3387 seconds
+[2021.02.26-13.18.58:536][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2021.02.26-13.18.58:741][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.02.26-13.19.35:663][302]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.26-13.19.35:697][302]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.26-13.19.35:741][302]PIE: New page: PIE session: Minimal_Default (26 lut 2021, 15:19:35)
+[2021.02.26-13.19.35:755][302]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.02.26-13.19.35:757][302]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.02.26-13.19.35:757][302]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.02.26-13.19.35:761][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003853s)
+[2021.02.26-13.19.35:762][302]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.02.26-13.19.35:762][302]LogPlayLevel: PIE: World Init took: (0.001285s)
+[2021.02.26-13.19.35:762][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005301s)
+[2021.02.26-13.19.35:766][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2021.02.26-13.19.35:767][302]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.02.26-13.19.35:767][302]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.26-13.19.35:767][302]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.26-13.19.35:767][302]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.26-13.19.35:767][302]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.26-13.19.35:767][302]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.26-13.19.35:767][302]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.26-13.19.35:767][302]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.26-13.19.35:767][302]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.26-13.19.35:768][302]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.26-13.19.35:768][302]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.26-13.19.35:774][302]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.26-13.19.35:774][302]LogAudioMixer: Display: 1: FrontRight
+[2021.02.26-13.19.35:774][302]LogAudioMixer: Display: 2: FrontCenter
+[2021.02.26-13.19.35:774][302]LogAudioMixer: Display: 3: LowFrequency
+[2021.02.26-13.19.35:774][302]LogAudioMixer: Display: 4: BackLeft
+[2021.02.26-13.19.35:774][302]LogAudioMixer: Display: 5: BackRight
+[2021.02.26-13.19.35:774][302]LogAudioMixer: Display: 6: SideLeft
+[2021.02.26-13.19.35:774][302]LogAudioMixer: Display: 7: SideRight
+[2021.02.26-13.19.36:000][302]LogAudioMixer: Display: Using Audio Device Zestaw słuchawkowy (CORSAIR VOID PRO Wireless Gaming Headset)
+[2021.02.26-13.19.36:001][302]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.26-13.19.36:001][302]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.26-13.19.36:001][302]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.26-13.19.36:001][302]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.26-13.19.36:001][302]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.26-13.19.36:001][302]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2021.02.26-13.19.36:020][302]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.26-13.19.36:020][302]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.26-13.19.36:020][302]LogInit: FAudioDevice initialized.
+[2021.02.26-13.19.36:020][302]LogAudio: Display: Audio Device (ID: 2) registered with world 'Minimal_Default'.
+[2021.02.26-13.19.36:055][302]LogLoad: Game class is 'GameModeBase'
+[2021.02.26-13.19.36:067][302]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2021.02.26-14.19.36
+[2021.02.26-13.19.36:067][302]LogWorld: Bringing up level for play took: 0.001013
+[2021.02.26-13.19.36:068][302]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2021.02.26-13.19.36:171][302]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2021.02.26-13.19.36:209][302]PIE: Server logged in
+[2021.02.26-13.19.36:211][302]PIE: Play in editor total start time 0,528 seconds.
+[2021.02.26-13.19.40:707][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.26-13.19.40:708][610]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2021.02.26-13.19.40:708][610]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.02.26-13.19.40:708][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.26-13.19.40:720][610]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.26-13.19.40:722][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.26-13.19.40:725][610]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.26-13.19.40:725][610]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.26-13.19.40:726][610]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.26-13.19.40:746][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.26-13.19.40:765][610]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2021.02.26-13.19.40:795][611]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2021.02.26-13.19.42:365][715]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Floor)
+[2021.02.26-13.19.44:068][789]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2021.02.26-13.19.55:815][493]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
