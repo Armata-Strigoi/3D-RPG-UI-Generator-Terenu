@@ -549,3 +549,4 @@ Projekt3D/.vscode/launch.json
 Projekt3D/.vscode/tasks.json
 *.ipch
 *.pch
+*.json
