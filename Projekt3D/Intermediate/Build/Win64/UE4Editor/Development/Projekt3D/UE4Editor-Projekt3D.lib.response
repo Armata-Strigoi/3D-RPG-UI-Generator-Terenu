@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Projekt3D.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Arc\Desktop\Polibuda\Sezon6\PROJEKT\3D-UE4\Projekt3D\Intermediate\Build\Win64\Projekt3DEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Arc\Desktop\Polibuda\Sezon6\PROJEKT\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Development\Projekt3D\MyCharacterMovement.cpp.obj"
+"C:\Users\Arc\Desktop\Polibuda\Sezon6\PROJEKT\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Development\Projekt3D\Projekt3D.cpp.obj"
+"C:\Users\Arc\Desktop\Polibuda\Sezon6\PROJEKT\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Development\Projekt3D\MyCharacterMovement.gen.cpp.obj"
+"C:\Users\Arc\Desktop\Polibuda\Sezon6\PROJEKT\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Development\Projekt3D\Projekt3D.init.gen.cpp.obj"
+"C:\Users\Arc\Desktop\Polibuda\Sezon6\PROJEKT\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Development\Projekt3D\Default.rc2.res"
+/OUT:"C:\Users\Arc\Desktop\Polibuda\Sezon6\PROJEKT\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Development\Projekt3D\UE4Editor-Projekt3D.lib"
+/INCLUDE:IMPLEMENT_MODULE_Projekt3D

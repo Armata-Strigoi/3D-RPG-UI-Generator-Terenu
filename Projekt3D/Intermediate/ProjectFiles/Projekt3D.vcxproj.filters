@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Projekt3D.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{50BD5523-19F1-4DD0-A727-2D2288F60266}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Projekt3D.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Projekt3DEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.ignore" />
+    <None Include="..\..\Projekt3D.code-workspace" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{3E335CCA-FD7A-4F05-915C-5D37268E1EB1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Projekt3D">
+      <UniqueIdentifier>{4D6F6A0A-D92E-4ACA-B7EE-3CE82006058E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Projekt3D\MyCharacterMovement.cpp">
+      <Filter>Source\Projekt3D</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Projekt3D\MyCharacterMovement.h">
+      <Filter>Source\Projekt3D</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Projekt3D\Projekt3D.Build.cs">
+      <Filter>Source\Projekt3D</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Projekt3D\Projekt3D.cpp">
+      <Filter>Source\Projekt3D</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Projekt3D\Projekt3D.h">
+      <Filter>Source\Projekt3D</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
