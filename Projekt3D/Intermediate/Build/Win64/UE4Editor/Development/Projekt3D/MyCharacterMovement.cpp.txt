@@ -8,4 +8,10 @@ T:\UnrealEngine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Roo
 T:\UnrealEngine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 T:\UnrealEngine\UE_4.26\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 T:\UnrealEngine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+C:\Users\Arc\Desktop\Polibuda\Sezon6\PROJEKT\3D-UE4\Projekt3D\Source\Projekt3D\KolizjaGowy.h
+C:\Users\Arc\Desktop\Polibuda\Sezon6\PROJEKT\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Inc\Projekt3D\KolizjaGowy.generated.h
 C:\Users\Arc\Desktop\Polibuda\Sezon6\PROJEKT\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Inc\Projekt3D\MyCharacterMovement.generated.h
+T:\UnrealEngine\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
+T:\UnrealEngine\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+T:\UnrealEngine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+T:\UnrealEngine\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h

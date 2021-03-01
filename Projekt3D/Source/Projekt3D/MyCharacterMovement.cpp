@@ -3,6 +3,8 @@
 
 #include "MyCharacterMovement.h"
 
+#include "Components/CapsuleComponent.h"
+
 // Sets default values
 AMyCharacterMovement::AMyCharacterMovement()
 {
@@ -16,6 +18,17 @@ AMyCharacterMovement::AMyCharacterMovement()
 	cam = CreateDefaultSubobject<UCameraComponent>(TEXT("CAMERA"));
 	cam->AttachTo(RootComponent);
 	
+	speed = 0.5f;
+	sprinting = false;
+	crouching = false;
+	crouchingTogg = false;
+	toCrouch = false;
+	toStand = false;
+	canStand = false;
+
+	GetCapsuleComponent()->GetUnscaledCapsuleSize(promien,wysokosc);
+
+	kolizja = CreateDefaultSubobject<UKolizjaGowy>(TEXT("KolizjaGowy"));
 }
 
 // Called when the game starts or when spawned
@@ -34,6 +47,42 @@ void AMyCharacterMovement::Tick(float DeltaTime)
 	{
 		Jump();
 	}
+
+	if(wantsToStand)
+	{
+		canStand = !this->kolizja->sprawdz();
+	}
+
+
+	if(toCrouch)
+		{
+			float p,w;
+			GetCapsuleComponent()->GetUnscaledCapsuleSize(p,w);
+			if(w>wysokosc/2)
+			{
+				GetCapsuleComponent()->SetCapsuleSize(promien,w-4.f);
+			}else{
+				crouching = true;
+				UE_LOG(LogTemp, Warning, TEXT("KUCAM"))
+				toCrouch = false;
+			}
+	} else if(canStand && toStand)
+	{
+		float p,w;
+		GetCapsuleComponent()->GetUnscaledCapsuleSize(p,w);
+		if(w<wysokosc)
+		{
+			GetCapsuleComponent()->SetCapsuleSize(promien,w+4.f);
+		}else
+		{
+			toStand = false;
+			crouching = false;
+			UE_LOG(LogTemp, Warning, TEXT("WSTALEM"))
+			speed = 0.5f;
+		}
+	}
+	
+	
 }
 
 // Called to bind functionality to input
@@ -48,13 +97,19 @@ void AMyCharacterMovement::SetupPlayerInputComponent(UInputComponent* PlayerInpu
 
 	InputComponent->BindAction("Jump",IE_Pressed,this,&AMyCharacterMovement::IsJumping);
 	InputComponent->BindAction("Jump",IE_Released,this,&AMyCharacterMovement::IsJumping);
+
+	InputComponent->BindAction("Sprint",IE_Pressed,this,&AMyCharacterMovement::StartSprint);
+	InputComponent->BindAction("Sprint",IE_Released,this,&AMyCharacterMovement::StopSprint);
+
+	InputComponent->BindAction("Crouch",IE_Pressed,this,&AMyCharacterMovement::ToggleCrouch);
+	InputComponent->BindAction("Crouch",IE_Released,this,&AMyCharacterMovement::ToggleCrouch);
 }
 
 void AMyCharacterMovement::HorizontalMove(float value)
 {
 	if(value)
 	{
-		AddMovementInput(GetActorRightVector(),value);
+		AddMovementInput(GetActorRightVector(),value*speed);
 	}
 }
 
@@ -62,7 +117,7 @@ void AMyCharacterMovement::VerticalMove(float value)
 {
 	if(value)
 	{
-		AddMovementInput(GetActorForwardVector(),value);
+		AddMovementInput(GetActorForwardVector(),value*speed);
 	}
 }
 
@@ -96,6 +151,40 @@ void AMyCharacterMovement::IsJumping()
 		jumping = true;
 	}
 }
+
+void AMyCharacterMovement::StartSprint()
+{
+	if(!crouching)
+	{
+		sprinting = true;
+		speed = 1.0f;
+	}
+}
+
+void AMyCharacterMovement::StopSprint()
+{
+	sprinting = false;;
+	speed = 0.5f;
+	
+}
+void AMyCharacterMovement::ToggleCrouch()
+{
+	crouchingTogg = !crouchingTogg;
+	if(crouchingTogg)
+	{
+		speed = 0.1f;
+		toStand = false;
+		toCrouch = true;
+		wantsToStand = false;
+	}else
+	{
+		toCrouch = false;
+		toStand = true;
+		wantsToStand = true;
+	}
+}
+
+
 
 
 

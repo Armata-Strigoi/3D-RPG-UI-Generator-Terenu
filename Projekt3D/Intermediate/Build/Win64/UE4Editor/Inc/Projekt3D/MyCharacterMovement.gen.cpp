@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterMovement() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_Projekt3D();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
+	PROJEKT3D_API UClass* Z_Construct_UClass_UKolizjaGowy_NoRegister();
 // End Cross Module References
 	void AMyCharacterMovement::StaticRegisterNativesAMyCharacterMovement()
 	{
@@ -41,6 +42,24 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterMovement() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_cam_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_cam;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_speed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_speed;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_sprinting_MetaData[];
+#endif
+		static void NewProp_sprinting_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_sprinting;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_crouching_MetaData[];
+#endif
+		static void NewProp_crouching_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_crouching;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_kolizja_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_kolizja;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -73,9 +92,46 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterMovement() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_cam = { "cam", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyCharacterMovement, cam), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_cam_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_cam_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_speed_MetaData[] = {
+		{ "ModuleRelativePath", "MyCharacterMovement.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_speed = { "speed", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyCharacterMovement, speed), METADATA_PARAMS(Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_speed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_speed_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_sprinting_MetaData[] = {
+		{ "ModuleRelativePath", "MyCharacterMovement.h" },
+	};
+#endif
+	void Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_sprinting_SetBit(void* Obj)
+	{
+		((AMyCharacterMovement*)Obj)->sprinting = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_sprinting = { "sprinting", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AMyCharacterMovement), &Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_sprinting_SetBit, METADATA_PARAMS(Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_sprinting_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_sprinting_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_crouching_MetaData[] = {
+		{ "ModuleRelativePath", "MyCharacterMovement.h" },
+	};
+#endif
+	void Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_crouching_SetBit(void* Obj)
+	{
+		((AMyCharacterMovement*)Obj)->crouching = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_crouching = { "crouching", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AMyCharacterMovement), &Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_crouching_SetBit, METADATA_PARAMS(Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_crouching_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_crouching_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_kolizja_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "MyCharacterMovement.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_kolizja = { "kolizja", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyCharacterMovement, kolizja), Z_Construct_UClass_UKolizjaGowy_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_kolizja_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_kolizja_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMyCharacterMovement_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_jumping,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_cam,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_speed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_sprinting,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_crouching,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_kolizja,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AMyCharacterMovement_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AMyCharacterMovement>::IsAbstract,
@@ -104,7 +160,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterMovement() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyCharacterMovement, 806159388);
+	IMPLEMENT_CLASS(AMyCharacterMovement, 4008328165);
 	template<> PROJEKT3D_API UClass* StaticClass<AMyCharacterMovement>()
 	{
 		return AMyCharacterMovement::StaticClass();

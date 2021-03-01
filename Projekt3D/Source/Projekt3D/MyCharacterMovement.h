@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "Camera/CameraComponent.h"
 #include "Components/InputComponent.h"
+#include "KolizjaGowy.h"
 #include "MyCharacterMovement.generated.h"
 
 
@@ -29,15 +30,45 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 private:
+	// Horizontal movement
 	void HorizontalMove(float value);
+
+	// Vertical movement
 	void VerticalMove(float value);
+
+	// Horizontal rotation
 	void HorizontalRotation(float value);
+
+	// Vertical rotation
 	void VerticalRotation(float value);
+
+	// Checks if player is jumping and change 'jumping' variable to opposite value
 	void IsJumping();
+
+	// Make character sprint
+	void StartSprint();
+	void StopSprint();
+	
+	// Crouching
+	void ToggleCrouch();
 
 	UPROPERTY()
 		bool jumping;
 
-	UPROPERTY();
+	UPROPERTY()
 		UCameraComponent* cam;
+
+	UPROPERTY()
+		float speed;
+	UPROPERTY()
+		bool sprinting;
+
+	UPROPERTY()
+		bool crouching;
+
+	bool toCrouch, toStand, canStand, wantsToStand, crouchingTogg;
+	float wysokosc, promien;
+
+	UPROPERTY()
+		UKolizjaGowy* kolizja;
 };

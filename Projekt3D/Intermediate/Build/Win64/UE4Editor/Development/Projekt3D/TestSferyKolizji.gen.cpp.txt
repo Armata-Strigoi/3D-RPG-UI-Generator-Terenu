@@ -1,0 +1,5 @@
+C:\Users\Arc\Desktop\Polibuda\Sezon6\PROJEKT\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Development\Projekt3D\Definitions.Projekt3D.h
+T:\UnrealEngine\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+T:\UnrealEngine\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\Arc\Desktop\Polibuda\Sezon6\PROJEKT\3D-UE4\Projekt3D\Source\Projekt3D/TestSferyKolizji.h
+C:\Users\Arc\Desktop\Polibuda\Sezon6\PROJEKT\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Inc\Projekt3D\TestSferyKolizji.generated.h
