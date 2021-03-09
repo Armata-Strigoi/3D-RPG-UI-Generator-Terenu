@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PROJEKT3D_MyCharacterMovement_generated_h
 
-#define Projekt3D_Source_Projekt3D_MyCharacterMovement_h_17_SPARSE_DATA
-#define Projekt3D_Source_Projekt3D_MyCharacterMovement_h_17_RPC_WRAPPERS
-#define Projekt3D_Source_Projekt3D_MyCharacterMovement_h_17_RPC_WRAPPERS_NO_PURE_DECLS
-#define Projekt3D_Source_Projekt3D_MyCharacterMovement_h_17_INCLASS_NO_PURE_DECLS \
+#define Projekt3D_Source_Projekt3D_MyCharacterMovement_h_18_SPARSE_DATA
+#define Projekt3D_Source_Projekt3D_MyCharacterMovement_h_18_RPC_WRAPPERS
+#define Projekt3D_Source_Projekt3D_MyCharacterMovement_h_18_RPC_WRAPPERS_NO_PURE_DECLS
+#define Projekt3D_Source_Projekt3D_MyCharacterMovement_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyCharacterMovement(); \
 	friend struct Z_Construct_UClass_AMyCharacterMovement_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AMyCharacterMovement)
 
 
-#define Projekt3D_Source_Projekt3D_MyCharacterMovement_h_17_INCLASS \
+#define Projekt3D_Source_Projekt3D_MyCharacterMovement_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesAMyCharacterMovement(); \
 	friend struct Z_Construct_UClass_AMyCharacterMovement_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AMyCharacterMovement)
 
 
-#define Projekt3D_Source_Projekt3D_MyCharacterMovement_h_17_STANDARD_CONSTRUCTORS \
+#define Projekt3D_Source_Projekt3D_MyCharacterMovement_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMyCharacterMovement(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyCharacterMovement) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define Projekt3D_Source_Projekt3D_MyCharacterMovement_h_17_ENHANCED_CONSTRUCTORS \
+#define Projekt3D_Source_Projekt3D_MyCharacterMovement_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AMyCharacterMovement(AMyCharacterMovement&&); \
@@ -58,7 +58,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyCharacterMovement); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMyCharacterMovement)
 
 
-#define Projekt3D_Source_Projekt3D_MyCharacterMovement_h_17_PRIVATE_PROPERTY_OFFSET \
+#define Projekt3D_Source_Projekt3D_MyCharacterMovement_h_18_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__jumping() { return STRUCT_OFFSET(AMyCharacterMovement, jumping); } \
 	FORCEINLINE static uint32 __PPO__cam() { return STRUCT_OFFSET(AMyCharacterMovement, cam); } \
 	FORCEINLINE static uint32 __PPO__spring_arm() { return STRUCT_OFFSET(AMyCharacterMovement, spring_arm); } \
@@ -66,30 +66,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyCharacterMovement); \
 	FORCEINLINE static uint32 __PPO__sprinting() { return STRUCT_OFFSET(AMyCharacterMovement, sprinting); } \
 	FORCEINLINE static uint32 __PPO__crouching() { return STRUCT_OFFSET(AMyCharacterMovement, crouching); } \
 	FORCEINLINE static uint32 __PPO__firstPerson() { return STRUCT_OFFSET(AMyCharacterMovement, firstPerson); } \
+	FORCEINLINE static uint32 __PPO__sunsword() { return STRUCT_OFFSET(AMyCharacterMovement, sunsword); } \
 	FORCEINLINE static uint32 __PPO__kolizja() { return STRUCT_OFFSET(AMyCharacterMovement, kolizja); }
 
 
-#define Projekt3D_Source_Projekt3D_MyCharacterMovement_h_14_PROLOG
-#define Projekt3D_Source_Projekt3D_MyCharacterMovement_h_17_GENERATED_BODY_LEGACY \
+#define Projekt3D_Source_Projekt3D_MyCharacterMovement_h_15_PROLOG
+#define Projekt3D_Source_Projekt3D_MyCharacterMovement_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Projekt3D_Source_Projekt3D_MyCharacterMovement_h_17_PRIVATE_PROPERTY_OFFSET \
-	Projekt3D_Source_Projekt3D_MyCharacterMovement_h_17_SPARSE_DATA \
-	Projekt3D_Source_Projekt3D_MyCharacterMovement_h_17_RPC_WRAPPERS \
-	Projekt3D_Source_Projekt3D_MyCharacterMovement_h_17_INCLASS \
-	Projekt3D_Source_Projekt3D_MyCharacterMovement_h_17_STANDARD_CONSTRUCTORS \
+	Projekt3D_Source_Projekt3D_MyCharacterMovement_h_18_PRIVATE_PROPERTY_OFFSET \
+	Projekt3D_Source_Projekt3D_MyCharacterMovement_h_18_SPARSE_DATA \
+	Projekt3D_Source_Projekt3D_MyCharacterMovement_h_18_RPC_WRAPPERS \
+	Projekt3D_Source_Projekt3D_MyCharacterMovement_h_18_INCLASS \
+	Projekt3D_Source_Projekt3D_MyCharacterMovement_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Projekt3D_Source_Projekt3D_MyCharacterMovement_h_17_GENERATED_BODY \
+#define Projekt3D_Source_Projekt3D_MyCharacterMovement_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Projekt3D_Source_Projekt3D_MyCharacterMovement_h_17_PRIVATE_PROPERTY_OFFSET \
-	Projekt3D_Source_Projekt3D_MyCharacterMovement_h_17_SPARSE_DATA \
-	Projekt3D_Source_Projekt3D_MyCharacterMovement_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	Projekt3D_Source_Projekt3D_MyCharacterMovement_h_17_INCLASS_NO_PURE_DECLS \
-	Projekt3D_Source_Projekt3D_MyCharacterMovement_h_17_ENHANCED_CONSTRUCTORS \
+	Projekt3D_Source_Projekt3D_MyCharacterMovement_h_18_PRIVATE_PROPERTY_OFFSET \
+	Projekt3D_Source_Projekt3D_MyCharacterMovement_h_18_SPARSE_DATA \
+	Projekt3D_Source_Projekt3D_MyCharacterMovement_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	Projekt3D_Source_Projekt3D_MyCharacterMovement_h_18_INCLASS_NO_PURE_DECLS \
+	Projekt3D_Source_Projekt3D_MyCharacterMovement_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

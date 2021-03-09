@@ -19,7 +19,7 @@ AMyCharacterMovement::AMyCharacterMovement()
 	cam = CreateDefaultSubobject<UCameraComponent>(TEXT("CAMERA"),true);
 
 	spring_arm = CreateDefaultSubobject<USpringArmComponent>(TEXT("Springarm2"));
-	spring_arm->AttachTo(GetRootComponent());
+	spring_arm->AttachToComponent(GetRootComponent(), FAttachmentTransformRules::KeepRelativeTransform);
 	spring_arm->SetRelativeLocation(FVector(0,0,40));
 	spring_arm->TargetArmLength = 300.f;
 	spring_arm->SetRelativeRotation(FRotator(-30.f,0,0));
@@ -36,7 +36,7 @@ AMyCharacterMovement::AMyCharacterMovement()
 	spring_arm->CameraLagSpeed = 4;
 	spring_arm->CameraLagMaxTimeStep = 1;
 	
-	cam->AttachTo(spring_arm);
+	cam->AttachToComponent(spring_arm, FAttachmentTransformRules::KeepRelativeTransform ,USpringArmComponent::SocketName);
 		
 	
 	speed = 0.5f;
@@ -46,13 +46,29 @@ AMyCharacterMovement::AMyCharacterMovement()
 	toCrouch = false;
 	toStand = false;
 	canStand = false;
-
+	
 	firstPerson = false;
 
+	zaladowano = false;
+	
 	GetCapsuleComponent()->GetUnscaledCapsuleSize(promien,wysokosc);
-
+	sunsword = CreateDefaultSubobject<ASunSword>(TEXT("SUNSWORDDS"));
 	kolizja = CreateDefaultSubobject<UKolizjaGowy>(TEXT("KolizjaGowy"));
+
 }
+
+void AMyCharacterMovement::Laduj()
+{
+	if(!zaladowano)
+	{
+		FActorSpawnParameters SpawnInfo;
+		sunsword = GetWorld()->SpawnActor<ASunSword>(FVector::ZeroVector, FRotator::ZeroRotator,SpawnInfo);
+		sunsword->AttachToComponent(GetMesh(),FAttachmentTransformRules::KeepRelativeTransform,FName("index_01_rSocket"));
+		zaladowano = !zaladowano;
+	}
+
+}
+
 
 // Called when the game starts or when spawned
 void AMyCharacterMovement::BeginPlay()
@@ -65,7 +81,7 @@ void AMyCharacterMovement::BeginPlay()
 void AMyCharacterMovement::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	Laduj();
 	if(jumping)
 	{
 		Jump();
@@ -178,7 +194,7 @@ void AMyCharacterMovement::VerticalRotation(float value)
 	}
 }
 
-
+	
 void AMyCharacterMovement::IsJumping()
 {
 	if(jumping)
@@ -249,14 +265,20 @@ void AMyCharacterMovement::CameraSwap()
 	firstPerson = !firstPerson;
 	if(firstPerson)
 	{
-		cam->AttachTo(RootComponent);
+		cam->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepRelativeTransform);
+		cam->SetRelativeLocation(FVector(20,0,75));
 	}else
 	{
-		spring_arm->AttachTo(RootComponent);
-		cam->AttachTo(spring_arm,USpringArmComponent::SocketName);
+		spring_arm->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepRelativeTransform);
+		cam->AttachToComponent(spring_arm, FAttachmentTransformRules::KeepRelativeTransform, USpringArmComponent::SocketName);
+		cam->SetRelativeLocation(FVector(00,0,0));
 	}
 }
 
+void AMyCharacterMovement::InsertItemInHand()
+{
+	
+}
 
 
 

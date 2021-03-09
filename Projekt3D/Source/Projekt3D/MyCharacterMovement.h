@@ -8,6 +8,7 @@
 #include "Camera/CameraComponent.h"
 #include "Components/InputComponent.h"
 #include "KolizjaGowy.h"
+#include "SunSword.h"
 #include "MyCharacterMovement.generated.h"
 
 
@@ -57,7 +58,11 @@ private:
 	void CameraZoom(float value);
 	// Camera swap (first person to third)
 	void CameraSwap();
-	
+
+
+	// @@ Items @@ //
+	void InsertItemInHand();
+	void Laduj();
 
 	UPROPERTY()
 		bool jumping;
@@ -80,9 +85,13 @@ private:
 	UPROPERTY()
 		bool firstPerson;
 
-	bool toCrouch, toStand, canStand, wantsToStand, crouchingTogg;
+	UPROPERTY()
+		ASunSword* sunsword;
+	
+	bool toCrouch, toStand, canStand, wantsToStand, crouchingTogg, zaladowano;
 	float wysokosc, promien;
 
 	UPROPERTY()
 		UKolizjaGowy* kolizja;
+		
 };
