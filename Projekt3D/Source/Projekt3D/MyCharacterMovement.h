@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "Components/InputComponent.h"
 #include "KolizjaGowy.h"
@@ -30,18 +31,12 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 private:
+	// @@ Movement @@ //
 	// Horizontal movement
 	void HorizontalMove(float value);
-
 	// Vertical movement
 	void VerticalMove(float value);
-
-	// Horizontal rotation
-	void HorizontalRotation(float value);
-
-	// Vertical rotation
-	void VerticalRotation(float value);
-
+	
 	// Checks if player is jumping and change 'jumping' variable to opposite value
 	void IsJumping();
 
@@ -51,6 +46,18 @@ private:
 	
 	// Crouching
 	void ToggleCrouch();
+	
+	// @@ Camera  @@ //
+	// Horizontal rotation
+	void HorizontalRotation(float value);
+	// Vertical rotation
+	void VerticalRotation(float value);
+
+	// Camera scrolling
+	void CameraZoom(float value);
+	// Camera swap (first person to third)
+	void CameraSwap();
+	
 
 	UPROPERTY()
 		bool jumping;
@@ -59,12 +66,19 @@ private:
 		UCameraComponent* cam;
 
 	UPROPERTY()
+		USpringArmComponent* spring_arm;
+
+	UPROPERTY()
 		float speed;
+		
 	UPROPERTY()
 		bool sprinting;
 
 	UPROPERTY()
 		bool crouching;
+
+	UPROPERTY()
+		bool firstPerson;
 
 	bool toCrouch, toStand, canStand, wantsToStand, crouchingTogg;
 	float wysokosc, promien;

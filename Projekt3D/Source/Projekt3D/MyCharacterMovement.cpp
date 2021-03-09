@@ -15,8 +15,29 @@ AMyCharacterMovement::AMyCharacterMovement()
 
 	bUseControllerRotationYaw = false;
 
-	cam = CreateDefaultSubobject<UCameraComponent>(TEXT("CAMERA"));
-	cam->AttachTo(RootComponent);
+	// Camera create
+	cam = CreateDefaultSubobject<UCameraComponent>(TEXT("CAMERA"),true);
+
+	spring_arm = CreateDefaultSubobject<USpringArmComponent>(TEXT("Springarm2"));
+	spring_arm->AttachTo(GetRootComponent());
+	spring_arm->SetRelativeLocation(FVector(0,0,40));
+	spring_arm->TargetArmLength = 300.f;
+	spring_arm->SetRelativeRotation(FRotator(-30.f,0,0));
+
+	//
+	// Camera lag
+	// Movement
+	
+	spring_arm->bEnableCameraLag = true;
+	spring_arm->CameraLagSpeed = 2; // How fast camera approach its positon
+	spring_arm->CameraLagMaxDistance = 1.5; // Maxium distance camera can lag behind current rotation
+	// Rotation
+	spring_arm->bEnableCameraRotationLag = true;
+	spring_arm->CameraLagSpeed = 4;
+	spring_arm->CameraLagMaxTimeStep = 1;
+	
+	cam->AttachTo(spring_arm);
+		
 	
 	speed = 0.5f;
 	sprinting = false;
@@ -25,6 +46,8 @@ AMyCharacterMovement::AMyCharacterMovement()
 	toCrouch = false;
 	toStand = false;
 	canStand = false;
+
+	firstPerson = false;
 
 	GetCapsuleComponent()->GetUnscaledCapsuleSize(promien,wysokosc);
 
@@ -94,6 +117,8 @@ void AMyCharacterMovement::SetupPlayerInputComponent(UInputComponent* PlayerInpu
 	InputComponent->BindAxis("VerticalMovement",this,&AMyCharacterMovement::VerticalMove);
 	InputComponent->BindAxis("HorizontalRotation",this,&AMyCharacterMovement::HorizontalRotation);
 	InputComponent->BindAxis("VerticalRotation",this,&AMyCharacterMovement::VerticalRotation);
+	
+	InputComponent->BindAxis("Scroll",this,&AMyCharacterMovement::CameraZoom);
 
 	InputComponent->BindAction("Jump",IE_Pressed,this,&AMyCharacterMovement::IsJumping);
 	InputComponent->BindAction("Jump",IE_Released,this,&AMyCharacterMovement::IsJumping);
@@ -103,7 +128,11 @@ void AMyCharacterMovement::SetupPlayerInputComponent(UInputComponent* PlayerInpu
 
 	InputComponent->BindAction("Crouch",IE_Pressed,this,&AMyCharacterMovement::ToggleCrouch);
 	InputComponent->BindAction("Crouch",IE_Released,this,&AMyCharacterMovement::ToggleCrouch);
+
+
 }
+
+
 
 void AMyCharacterMovement::HorizontalMove(float value)
 {
@@ -133,9 +162,18 @@ void AMyCharacterMovement::VerticalRotation(float value)
 {
 	if(value)
 	{
-		float temp = cam->GetRelativeRotation().Pitch + value;
-		if(temp > -80 && temp < 80){
-			cam->AddLocalRotation(FRotator(value,0,0));
+		if(firstPerson)
+		{
+			float temp = cam->GetRelativeRotation().Pitch + value;
+			if(temp > -80 && temp < 80){
+				cam->AddLocalRotation(FRotator(value,0,0));
+			}
+		}else
+		{
+			float temp = spring_arm->GetRelativeRotation().Pitch + value;
+			if(temp > -65 && temp < 25){
+				spring_arm->AddLocalRotation(FRotator(value,0,0));
+			}
 		}
 	}
 }
@@ -184,7 +222,40 @@ void AMyCharacterMovement::ToggleCrouch()
 	}
 }
 
+void AMyCharacterMovement::CameraZoom(float value)
+{
+	if(value)
+	{
+		float temp = spring_arm->TargetArmLength + (value*-25);
+		if(!firstPerson)
+		{
+			if(temp < 600 && temp > 100)
+			{
+				spring_arm->TargetArmLength = temp;
+			}else if(temp <= 100)
+			{
+				spring_arm->TargetArmLength = 100;
+				CameraSwap();
+			}
+		}else
+		{
+			if(temp > 100) CameraSwap();
+		}
+	}
+}
 
+void AMyCharacterMovement::CameraSwap()
+{
+	firstPerson = !firstPerson;
+	if(firstPerson)
+	{
+		cam->AttachTo(RootComponent);
+	}else
+	{
+		spring_arm->AttachTo(RootComponent);
+		cam->AttachTo(spring_arm,USpringArmComponent::SocketName);
+	}
+}
 
 
 
