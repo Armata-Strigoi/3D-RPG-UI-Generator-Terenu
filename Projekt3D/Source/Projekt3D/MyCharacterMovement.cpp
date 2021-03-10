@@ -59,16 +59,16 @@ AMyCharacterMovement::AMyCharacterMovement()
 
 void AMyCharacterMovement::Laduj()
 {
-	if(!zaladowano)
-	{
-		FActorSpawnParameters SpawnInfo;
-		sunsword = GetWorld()->SpawnActor<ASunSword>(FVector::ZeroVector, FRotator::ZeroRotator,SpawnInfo);
-		sunsword->AttachToComponent(GetMesh(),FAttachmentTransformRules::KeepRelativeTransform,FName("index_01_rSocket"));
-		zaladowano = !zaladowano;
-	}
-
+	FActorSpawnParameters SpawnInfo;
+	sunsword = GetWorld()->SpawnActor<ASunSword>(FVector::ZeroVector, FRotator::ZeroRotator,SpawnInfo);
+	sunsword->AttachToComponent(GetMesh(),FAttachmentTransformRules::KeepRelativeTransform,FName("index_01_rSocket"));
+	sunsword->SetActorRelativeLocation(FVector(0,25,-40));
+	sunsword->SetActorRelativeRotation(FRotator(0,0,-35));
+	sunsword->SetActorScale3D(FVector(5,5,5));
+	zaladowano = !zaladowano;
 }
-
+//0,0,0
+//-89,62,121
 
 // Called when the game starts or when spawned
 void AMyCharacterMovement::BeginPlay()
@@ -81,7 +81,10 @@ void AMyCharacterMovement::BeginPlay()
 void AMyCharacterMovement::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	Laduj();
+	if(!zaladowano)
+	{
+		Laduj();
+	}
 	if(jumping)
 	{
 		Jump();
@@ -269,9 +272,10 @@ void AMyCharacterMovement::CameraSwap()
 		cam->SetRelativeLocation(FVector(20,0,75));
 	}else
 	{
-		spring_arm->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepRelativeTransform);
+		spring_arm->SetRelativeRotation(FRotator(-30.f,0,0));
 		cam->AttachToComponent(spring_arm, FAttachmentTransformRules::KeepRelativeTransform, USpringArmComponent::SocketName);
-		cam->SetRelativeLocation(FVector(00,0,0));
+		cam->SetRelativeLocation(FVector(0,0,0));
+		cam->SetRelativeRotation(FRotator(0,0,0));
 	}
 }
 
