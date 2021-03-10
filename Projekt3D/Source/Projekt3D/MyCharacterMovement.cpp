@@ -3,6 +3,8 @@
 
 #include "MyCharacterMovement.h"
 
+
+#include "UnrealAudioTypes.h"
 #include "Components/CapsuleComponent.h"
 
 // Sets default values
@@ -45,7 +47,8 @@ AMyCharacterMovement::AMyCharacterMovement()
 	crouchingTogg = false;
 	toCrouch = false;
 	toStand = false;
-	canStand = false;
+	canStand = true;
+	canJump = true;
 	
 	firstPerson = false;
 
@@ -55,6 +58,7 @@ AMyCharacterMovement::AMyCharacterMovement()
 	sunsword = CreateDefaultSubobject<ASunSword>(TEXT("SUNSWORDDS"));
 	kolizja = CreateDefaultSubobject<UKolizjaGowy>(TEXT("KolizjaGowy"));
 
+	przygotowanyDoCiecia = false;
 }
 
 void AMyCharacterMovement::Laduj()
@@ -85,7 +89,9 @@ void AMyCharacterMovement::Tick(float DeltaTime)
 	{
 		Laduj();
 	}
-	if(jumping)
+	
+	canJump = !this->kolizja->sprawdz();
+	if(canJump && jumping)
 	{
 		Jump();
 	}
@@ -148,8 +154,22 @@ void AMyCharacterMovement::SetupPlayerInputComponent(UInputComponent* PlayerInpu
 	InputComponent->BindAction("Crouch",IE_Pressed,this,&AMyCharacterMovement::ToggleCrouch);
 	InputComponent->BindAction("Crouch",IE_Released,this,&AMyCharacterMovement::ToggleCrouch);
 
-
+	InputComponent->BindAction("TrzymajCiecie",IE_Pressed,this,&AMyCharacterMovement::PrzygotujDoCiecia);
+	InputComponent->BindAction("TrzymajCiecie",IE_Released,this,&AMyCharacterMovement::PrzygotujDoCiecia);
 }
+
+void AMyCharacterMovement::PrzygotujDoCiecia()
+{
+	przygotowanyDoCiecia = !przygotowanyDoCiecia;
+	if(przygotowanyDoCiecia)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Przygotowany"));
+	}else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Nie-przygotowany"));
+	}
+}
+
 
 
 

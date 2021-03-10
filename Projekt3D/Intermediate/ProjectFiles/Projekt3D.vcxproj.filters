@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Projekt3D.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A36EFB72-104C-42AB-9C38-F9EB85F1A28E}</UniqueIdentifier>
+      <UniqueIdentifier>{CC9C23FB-F9B3-4B4A-9DF6-00F44C0224B1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Projekt3D.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.ignore" />
     <None Include="..\..\Projekt3D.code-workspace" />
     <Filter Include="Config">
-      <UniqueIdentifier>{3532F74D-0D67-4F02-B482-E99FBB35B8D0}</UniqueIdentifier>
+      <UniqueIdentifier>{A3B0FE0A-E171-4305-A528-E3455E89B067}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,12 +29,12 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Projekt3D">
-      <UniqueIdentifier>{8C8389B8-F3AC-4C3A-BD93-95AD26985C60}</UniqueIdentifier>
+      <UniqueIdentifier>{4456D2DE-1EB3-412F-A59C-967EF21C9B86}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\Projekt3D\ItemDistribution.cpp">
+    <ClCompile Include="..\..\Source\Projekt3D\Animacje.cpp">
       <Filter>Source\Projekt3D</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\Projekt3D\ItemDistribution.h">
+    <ClInclude Include="..\..\Source\Projekt3D\Animacje.h">
       <Filter>Source\Projekt3D</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Projekt3D\KolizjaGowy.cpp">

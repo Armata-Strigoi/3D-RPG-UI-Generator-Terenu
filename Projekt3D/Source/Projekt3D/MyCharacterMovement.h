@@ -64,6 +64,9 @@ private:
 	void InsertItemInHand();
 	void Laduj();
 
+	// @@ Fighting @@ //
+	void PrzygotujDoCiecia();
+
 	UPROPERTY()
 		bool jumping;
 
@@ -88,7 +91,7 @@ private:
 	UPROPERTY()
 		ASunSword* sunsword;
 	
-	bool toCrouch, toStand, canStand, wantsToStand, crouchingTogg, zaladowano;
+	bool toCrouch, toStand, canJump, canStand, wantsToStand, crouchingTogg, zaladowano, przygotowanyDoCiecia;
 	float wysokosc, promien;
 
 	UPROPERTY()
