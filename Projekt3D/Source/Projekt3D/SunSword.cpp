@@ -18,7 +18,7 @@ ASunSword::ASunSword()
 		mesh->SetStaticMesh(BaseMeshAsset.Object);
 	}else
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Blad wczytania sunsworda"));
+		UE_LOG(LogTemp, Error, TEXT("Blad wczytania sunsworda!"));
 	}
 }
 

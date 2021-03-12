@@ -59,6 +59,8 @@ AMyCharacterMovement::AMyCharacterMovement()
 	kolizja = CreateDefaultSubobject<UKolizjaGowy>(TEXT("KolizjaGowy"));
 
 	przygotowanyDoCiecia = false;
+
+	weaponStowed = false;
 }
 
 void AMyCharacterMovement::Laduj()
@@ -111,7 +113,6 @@ void AMyCharacterMovement::Tick(float DeltaTime)
 				GetCapsuleComponent()->SetCapsuleSize(promien,w-4.f);
 			}else{
 				crouching = true;
-				UE_LOG(LogTemp, Warning, TEXT("KUCAM"))
 				toCrouch = false;
 			}
 	} else if(canStand && toStand)
@@ -125,7 +126,6 @@ void AMyCharacterMovement::Tick(float DeltaTime)
 		{
 			toStand = false;
 			crouching = false;
-			UE_LOG(LogTemp, Warning, TEXT("WSTALEM"))
 			speed = 0.5f;
 		}
 	}
@@ -156,6 +156,8 @@ void AMyCharacterMovement::SetupPlayerInputComponent(UInputComponent* PlayerInpu
 
 	InputComponent->BindAction("TrzymajCiecie",IE_Pressed,this,&AMyCharacterMovement::PrzygotujDoCiecia);
 	InputComponent->BindAction("TrzymajCiecie",IE_Released,this,&AMyCharacterMovement::PrzygotujDoCiecia);
+
+	InputComponent->BindAction("WeaponStow",IE_Pressed,this,&AMyCharacterMovement::WeaponStowing);
 }
 
 void AMyCharacterMovement::PrzygotujDoCiecia()
@@ -302,6 +304,19 @@ void AMyCharacterMovement::CameraSwap()
 void AMyCharacterMovement::InsertItemInHand()
 {
 	
+}
+
+
+void AMyCharacterMovement::WeaponStowing()
+{
+	weaponStowed = !weaponStowed;
+	if(weaponStowed)
+	{
+		sunsword->SetActorHiddenInGame(true);
+	}else
+	{
+		sunsword->SetActorHiddenInGame(false);
+	}
 }
 
 

@@ -61,11 +61,13 @@ private:
 
 
 	// @@ Items @@ //
-	void InsertItemInHand();
+	void InsertItemInHand(); //todo
 	void Laduj();
 
 	// @@ Fighting @@ //
 	void PrzygotujDoCiecia();
+
+	void WeaponStowing(); // Chowanie i pokazywanie przedmiotu w prawej ręce (to mozna przerobic jak beda animacje, zeby przyjmowalo argument i zeby to animacja kontrolowala kiedy schowac/pokazac bron)
 
 	UPROPERTY()
 		bool jumping;
@@ -96,5 +98,8 @@ private:
 
 	UPROPERTY()
 		UKolizjaGowy* kolizja;
+
+	UPROPERTY()
+		bool weaponStowed;
 		
 };

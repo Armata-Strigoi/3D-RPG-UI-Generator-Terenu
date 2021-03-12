@@ -67,7 +67,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyCharacterMovement); \
 	FORCEINLINE static uint32 __PPO__crouching() { return STRUCT_OFFSET(AMyCharacterMovement, crouching); } \
 	FORCEINLINE static uint32 __PPO__firstPerson() { return STRUCT_OFFSET(AMyCharacterMovement, firstPerson); } \
 	FORCEINLINE static uint32 __PPO__sunsword() { return STRUCT_OFFSET(AMyCharacterMovement, sunsword); } \
-	FORCEINLINE static uint32 __PPO__kolizja() { return STRUCT_OFFSET(AMyCharacterMovement, kolizja); }
+	FORCEINLINE static uint32 __PPO__kolizja() { return STRUCT_OFFSET(AMyCharacterMovement, kolizja); } \
+	FORCEINLINE static uint32 __PPO__weaponStowed() { return STRUCT_OFFSET(AMyCharacterMovement, weaponStowed); }
 
 
 #define Projekt3D_Source_Projekt3D_MyCharacterMovement_h_15_PROLOG

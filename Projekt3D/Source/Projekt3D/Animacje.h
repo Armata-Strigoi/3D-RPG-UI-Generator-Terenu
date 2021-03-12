@@ -3,6 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
+
+#include "MyCharacterMovement.h"
 #include "Runtime/Engine/Classes/Animation/AnimInstance.h"
 #include "Animacje.generated.h"
  
@@ -23,5 +25,19 @@ public:
 	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category="Generic")
 		bool isInAir;
 
+	UPROPERTY()
+		AActor* owningActor;
+
+	UPROPERTY()
+		AMyCharacterMovement* owningCharacter;
+
+	UPROPERTY()
+		bool zaladowano;
+	
+	
 	virtual void NativeUpdateAnimation(float DeltaSeconds) override;
+
+
+	// Funkcja sluzaca do zaladowanaia zmiennych ktorych nie mozna zaladowac w konstruktorze
+	void Laduj();
 };
