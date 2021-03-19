@@ -31,8 +31,8 @@ void UAnimacje::NativeUpdateAnimation(float DeltaSeconds)
 		if(owningCharacter)
 		{
 			isInAir = owningCharacter->GetCharacterMovement()->IsFalling();
-		}else UE_LOG(LogTemp, Fatal, TEXT("Zmienna owningCharacter zostala wyczyszczona!"));
-	}else UE_LOG(LogTemp, Fatal, TEXT("Zmienna owningActor zostala wyczyszczona!"));
+		}else UE_LOG(LogTemp, Error, TEXT("Zmienna owningCharacter zostala wyczyszczona!"));
+	}else UE_LOG(LogTemp, Error, TEXT("Zmienna owningActor zostala wyczyszczona!"));
 }
 
 void UAnimacje::Laduj()
