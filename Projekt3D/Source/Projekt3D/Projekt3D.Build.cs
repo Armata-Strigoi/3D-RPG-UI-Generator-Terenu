@@ -12,6 +12,12 @@ public class Projekt3D : ModuleRules
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
+         /*PublicDependencyModuleNames.AddRange(new string[] { 
+             "OnlineSubsystem",
+             "OnlineSubsystemUtils",
+             "Landscape",
+             "Steamworks"
+         });*/
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
 		

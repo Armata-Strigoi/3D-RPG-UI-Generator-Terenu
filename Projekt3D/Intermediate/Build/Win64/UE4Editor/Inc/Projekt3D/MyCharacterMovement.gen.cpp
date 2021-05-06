@@ -97,7 +97,9 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterMovement() {}
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_jumping_MetaData[] = {
+		{ "Comment", "// Chowanie i pokazywanie przedmiotu w prawej r\xc4\x99""ce (to mozna przerobic jak beda animacje, zeby przyjmowalo argument i zeby to animacja kontrolowala kiedy schowac/pokazac bron)\n" },
 		{ "ModuleRelativePath", "MyCharacterMovement.h" },
+		{ "ToolTip", "Chowanie i pokazywanie przedmiotu w prawej r\xc4\x99""ce (to mozna przerobic jak beda animacje, zeby przyjmowalo argument i zeby to animacja kontrolowala kiedy schowac/pokazac bron)" },
 	};
 #endif
 	void Z_Construct_UClass_AMyCharacterMovement_Statics::NewProp_jumping_SetBit(void* Obj)
@@ -217,7 +219,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCharacterMovement() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyCharacterMovement, 2521673949);
+	IMPLEMENT_CLASS(AMyCharacterMovement, 1064572387);
 	template<> PROJEKT3D_API UClass* StaticClass<AMyCharacterMovement>()
 	{
 		return AMyCharacterMovement::StaticClass();
