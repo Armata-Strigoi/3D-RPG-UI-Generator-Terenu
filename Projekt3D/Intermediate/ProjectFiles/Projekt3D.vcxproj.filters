@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Projekt3D.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{BB8194A6-4E37-4C6B-B712-B7C55E4BABFD}</UniqueIdentifier>
+      <UniqueIdentifier>{81443935-1E91-4306-B73D-ACB301760C2B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Projekt3D.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.ignore" />
     <None Include="..\..\Projekt3D.code-workspace" />
     <Filter Include="Config">
-      <UniqueIdentifier>{F7739CDF-8253-411E-A94A-5FADACE0C32A}</UniqueIdentifier>
+      <UniqueIdentifier>{704E4B4D-F5B9-471D-97D6-8A373C74D6F5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,7 +29,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Projekt3D">
-      <UniqueIdentifier>{3C245566-6BA0-4921-AE31-AEC20C47415B}</UniqueIdentifier>
+      <UniqueIdentifier>{16BE7417-5B39-45A5-B61E-0105F71F035B}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Projekt3D\AASDSDADSA.cpp">
       <Filter>Source\Projekt3D</Filter>
@@ -47,6 +47,18 @@
       <Filter>Source\Projekt3D</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Projekt3D\KolizjaGowy.h">
+      <Filter>Source\Projekt3D</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Projekt3D\KopiaElementuTablicy.cpp">
+      <Filter>Source\Projekt3D</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Projekt3D\KopiaElementuTablicy.h">
+      <Filter>Source\Projekt3D</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Projekt3D\KozakButton.cpp">
+      <Filter>Source\Projekt3D</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Projekt3D\KozakButton.h">
       <Filter>Source\Projekt3D</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Projekt3D\LandscapeGenerator.cpp">
