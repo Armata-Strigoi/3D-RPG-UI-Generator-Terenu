@@ -16,7 +16,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Source/Projekt3D/AASDSDADSA.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Private/GameplayStatics.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Projekt3D/KopiaElementuTablicy.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/CoreUObject/Public/UObject/Object.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Projekt3D/Projekt3D.Build.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/UMG/Private/Components/Button.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Landscape/Classes/LandscapeComponent.h" root0="FORCE_HIGHLIGHTING" />
@@ -27,6 +29,7 @@
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Landscape/Private/LandscapeEdit.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Classes/Kismet/KismetMathLibrary.inl" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/UMG/Public/Components/Button.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Classes/Components/ActorComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Projekt3D/AASDSDADSA.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -41,7 +44,6 @@
       <option value="$PROJECT_DIR$/Source/Projekt3D/Animacje.cpp" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/KolizjaGowy.cpp" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/SunSword.cpp" />
-      <option value="$PROJECT_DIR$/Source/Projekt3D/MyCharacterMovement.cpp" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/MyCharacterMovement.h" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/LandscapeGenerator.cpp" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/Test.h" />
@@ -54,6 +56,10 @@
       <option value="$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/UMG/Public/Components/Button.h" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/KozakButton.h" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/KozakButton.cpp" />
+      <option value="$PROJECT_DIR$/Source/Projekt3D/MyCharacterMovement.cpp" />
+      <option value="$PROJECT_DIR$/Source/Projekt3D/Obiekt_Core.h" />
+      <option value="$PROJECT_DIR$/Source/Projekt3D/NewStaticMeshComponent.h" />
+      <option value="$PROJECT_DIR$/Source/Projekt3D/Obiekt_Core.cpp" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1p1h4WLbpb5TtIS617KYLw0ckxO" />
@@ -324,6 +330,7 @@
       <workItem from="1620260084282" duration="1000" />
       <workItem from="1620328494232" duration="2783000" />
       <workItem from="1620333775826" duration="2479000" />
+      <workItem from="1620419026156" duration="2992000" />
     </task>
     <servers />
   </component>

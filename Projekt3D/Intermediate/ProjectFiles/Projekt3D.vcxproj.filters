@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Projekt3D.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{81443935-1E91-4306-B73D-ACB301760C2B}</UniqueIdentifier>
+      <UniqueIdentifier>{B77B6F1F-3445-4331-8918-DAADF575BF7B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Projekt3D.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.ignore" />
     <None Include="..\..\Projekt3D.code-workspace" />
     <Filter Include="Config">
-      <UniqueIdentifier>{704E4B4D-F5B9-471D-97D6-8A373C74D6F5}</UniqueIdentifier>
+      <UniqueIdentifier>{A23BDAAF-8E35-4CBF-B471-911C2380ADC6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,7 +29,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Projekt3D">
-      <UniqueIdentifier>{16BE7417-5B39-45A5-B61E-0105F71F035B}</UniqueIdentifier>
+      <UniqueIdentifier>{09433494-8084-4A14-BF9C-2CF871DB6827}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Projekt3D\AASDSDADSA.cpp">
       <Filter>Source\Projekt3D</Filter>
@@ -71,6 +71,18 @@
       <Filter>Source\Projekt3D</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Projekt3D\MyCharacterMovement.h">
+      <Filter>Source\Projekt3D</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Projekt3D\NewStaticMeshComponent.cpp">
+      <Filter>Source\Projekt3D</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Projekt3D\NewStaticMeshComponent.h">
+      <Filter>Source\Projekt3D</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Projekt3D\Obiekt_Core.cpp">
+      <Filter>Source\Projekt3D</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Projekt3D\Obiekt_Core.h">
       <Filter>Source\Projekt3D</Filter>
     </ClInclude>
     <None Include="..\..\Source\Projekt3D\Projekt3D.Build.cs">
