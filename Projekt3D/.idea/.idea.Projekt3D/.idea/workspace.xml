@@ -37,6 +37,7 @@
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Private/GameplayStatics.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Projekt3D/Obiekt_Core.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Projekt3D/Obiekt_Core.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Classes/Materials/MaterialInstanceDynamic.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/UMG/Private/Components/Button.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Private/World.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Projekt3D/MyCharacterMovement.h" root0="FORCE_HIGHLIGHTING" />
@@ -350,7 +351,8 @@
       <workItem from="1620513531752" duration="378000" />
       <workItem from="1620516048170" duration="90000" />
       <workItem from="1620516908932" duration="972000" />
-      <workItem from="1620545376450" duration="6205000" />
+      <workItem from="1620545376450" duration="6431000" />
+      <workItem from="1620587259651" duration="2893000" />
     </task>
     <servers />
   </component>

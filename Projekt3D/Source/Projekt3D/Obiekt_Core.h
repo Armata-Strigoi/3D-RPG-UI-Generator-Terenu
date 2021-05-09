@@ -36,25 +36,37 @@ public:
 	bool problematic;
 
 	UPROPERTY()
-	bool acctuallyFullShown;
+	TArray<bool> acctuallyFullShown;
 
 	UPROPERTY()
-	float opacity;
+	TArray<float> opacities;
 
 	UPROPERTY()
-	bool translucent;
+	TArray<bool> translucencies;
 
 	UPROPERTY()
-	UMaterialInstanceDynamic* baseMaterial;
+	int materialsNumber;
+
+	UPROPERTY()
+	TArray<UMaterialInstanceDynamic*> dynamicBaseMaterials;
 	
+	//UPROPERTY()
+	//UMaterialInstanceDynamic* baseMaterial;
+
 	UPROPERTY()
-	UMaterialInstanceDynamic* dynamicTranslucentMaterial;
+	TArray<UMaterialInstanceDynamic*> dynamicTranslucentMaterials;
 	
-	UPROPERTY(EditAnywhere,Category="Materials")
-	UMaterial* translucentMaterial;
+	//UPROPERTY()
+	//UMaterialInstanceDynamic* dynamicTranslucentMaterial;
+	
+	//UPROPERTY(EditAnywhere,Category="Materials")
+	//UMaterial* translucentMaterial;
 
 	UPROPERTY()
 	TArray<UStaticMeshComponent*> components;
+
+	UPROPERTY(EditAnywhere, Category="Materials")
+	TArray<UMaterialInstance*> translucentMaterials;
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;

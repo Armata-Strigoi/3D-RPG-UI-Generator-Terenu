@@ -13,9 +13,6 @@ UObiekt_Core::UObiekt_Core()
 	hideAngle = 60;
 	hideRotation = -999;
 	hideSpeed = 0.05;
-	opacity = 1;
-	acctuallyFullShown = true;
-	translucent = false;
 	// ...
 	
 }
@@ -34,10 +31,24 @@ void UObiekt_Core::BeginPlay()
 	problematic = (abs(hideRotation) > 180-hideAngle);
 	GetOwner()->GetComponents<UStaticMeshComponent>(components);
 	// ...
-
-	baseMaterial = UMaterialInstanceDynamic::Create(components[0]->GetMaterial(0), this);;
-	dynamicTranslucentMaterial = UMaterialInstanceDynamic::Create(translucentMaterial, this);//
 	
+	//baseMaterial = UMaterialInstanceDynamic::Create(components[0]->GetMaterial(0), this);;
+	//dynamicTranslucentMaterial = UMaterialInstanceDynamic::Create(translucentMaterial, this);//
+	materialsNumber = components[0]->GetNumMaterials();
+	UE_LOG(LogTemp,Warning,TEXT("Materialy: %d"),materialsNumber);
+	if(materialsNumber != translucentMaterials.Num())
+	{
+		UE_LOG(LogTemp,Error,TEXT("Niezgodna liczba materiałow oraz materiałów przezroczystych dla obiektu!"));
+	}
+
+	for(int32 i = 0; i < materialsNumber; i++)
+	{
+		dynamicBaseMaterials.Add(UMaterialInstanceDynamic::Create(components[0]->GetMaterial(i), this));
+		dynamicTranslucentMaterials.Add(UMaterialInstanceDynamic::Create(translucentMaterials[i], this));
+		opacities.Add(1.f);
+		translucencies.Add(false);
+		acctuallyFullShown.Add(true);
+	}
 	//dynamicMaterial = UMaterialInstanceDynamic::Create(components[0]->GetMaterial(0), this);//
 	//components[0]->SetMaterial(0,dynamicMaterial);
 }
@@ -51,48 +62,43 @@ void UObiekt_Core::TickComponent(float DeltaTime, ELevelTick TickType, FActorCom
 	{
 		float cameraYaw = cameraManager->GetCameraRotation().Yaw;
 		UE_LOG(LogTemp,Warning,TEXT("%f"),cameraYaw);
-		if(dynamicTranslucentMaterial != nullptr)
-			opacity = dynamicTranslucentMaterial->K2_GetScalarParameterValue("Opacity");
-		
+		for(int32 i = 0; i < materialsNumber; i++)
+		{
+			opacities[i] = dynamicTranslucentMaterials[i]->K2_GetScalarParameterValue("Opacity");
+		}
 		if(abs(cameraYaw - hideRotation) < hideAngle)
 		{		
-			for(int32 i=0; i<components.Num();i++)
+			for(int32 i=0; i<materialsNumber;i++)
 			{
 				//components[i]->SetVisibility(false);
-				if(opacity > 0)
+				if(opacities[i] > 0)
 				{
-					if(!translucent)
+					if(!translucencies[i])
 					{
-						components[0]->SetMaterial(0,dynamicTranslucentMaterial);
-						translucent = true;
+						components[0]->SetMaterial(i,dynamicTranslucentMaterials[i]);
+						translucencies[i] = true;
 					}
-					dynamicTranslucentMaterial->SetScalarParameterValue("Opacity",opacity-hideSpeed);
+					dynamicTranslucentMaterials[i]->SetScalarParameterValue("Opacity",opacities[i]-hideSpeed);
 					//components[0]->SetMaterial(0,dynamicTranslucentMaterial);
-					acctuallyFullShown = false;
-				}else
-				{
-					//components[i]->SetVisibility(false);
+					acctuallyFullShown[i] = false;
 				}
 			}
 		}
 		else if(problematic && abs(cameraYaw - hideRotation) > 360-hideAngle)
 		{
-			for(int32 i=0; i<components.Num();i++)
+			for(int32 i=0; i<materialsNumber;i++)
 			{
 				//components[i]->SetVisibility(false);
-					if(opacity > 0)
+					if(opacities[i] > 0)
 					{
-						if(!translucent)
+						if(!translucencies[i])
 						{
-							components[0]->SetMaterial(0,dynamicTranslucentMaterial);
-							translucent = true;
+							components[0]->SetMaterial(i,dynamicTranslucentMaterials[i]);
+							translucencies[i] = true;
 						}
-						dynamicTranslucentMaterial->SetScalarParameterValue("Opacity",opacity-hideSpeed);
+						dynamicTranslucentMaterials[i]->SetScalarParameterValue("Opacity",opacities[i]-hideSpeed);
 						//components[0]->SetMaterial(0,dynamicTranslucentMaterial);
-						acctuallyFullShown = false;
-					}else
-					{
-						//components[i]->SetVisibility(false);
+						acctuallyFullShown[i] = false;
 					}
 				/*
 				if(components[i]->GetNumMaterials() > 0)
@@ -107,17 +113,17 @@ void UObiekt_Core::TickComponent(float DeltaTime, ELevelTick TickType, FActorCom
 		}
 		else
 		{
-			for(int32 i=0; i<components.Num();i++)
+			for(int32 i=0; i<materialsNumber;i++)
 			{
-				if(!acctuallyFullShown)
+				if(!acctuallyFullShown[i])
 				{
-					if(opacity >= 1)
+					if(opacities[i] >= 1)
 					{
-						components[0]->SetMaterial(0,baseMaterial);
-						acctuallyFullShown = true;
-						translucent = false;
+						components[0]->SetMaterial(i,dynamicBaseMaterials[i]);
+						acctuallyFullShown[i] = true;
+						translucencies[i] = false;
 					}
-					dynamicTranslucentMaterial->SetScalarParameterValue("Opacity",opacity+(hideSpeed*2));
+					dynamicTranslucentMaterials[i]->SetScalarParameterValue("Opacity",opacities[i]+(hideSpeed*2));
 					//components[0]->SetMaterial(0,dynamicTranslucentMaterial);
 				}
 				//components[i]->SetVisibility(true);
