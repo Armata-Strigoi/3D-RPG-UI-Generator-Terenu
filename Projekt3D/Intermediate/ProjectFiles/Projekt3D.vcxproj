@@ -51,7 +51,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6E2A790B-1C9B-4B7E-92DD-D986377BBAF5}</ProjectGuid>
+    <ProjectGuid>{2A91C3BA-7613-4180-997C-97FF8994AE82}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>Projekt3D</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>

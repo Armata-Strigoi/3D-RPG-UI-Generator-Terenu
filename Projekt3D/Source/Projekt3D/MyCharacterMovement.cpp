@@ -39,7 +39,7 @@ AMyCharacterMovement::AMyCharacterMovement()
 	spring_arm->CameraLagMaxTimeStep = 1;
 	
 	cam->AttachToComponent(spring_arm, FAttachmentTransformRules::KeepRelativeTransform ,USpringArmComponent::SocketName);
-		
+	spring_arm->bDoCollisionTest = false; // Debug
 	
 	speed = 0.5f;
 	sprinting = false;
@@ -130,6 +130,7 @@ void AMyCharacterMovement::Tick(float DeltaTime)
 		}
 	}
 
+	UE_LOG(LogTemp,Display,TEXT("Camera: %f"),cam->GetRelativeRotation().Yaw);
 
 	
 }

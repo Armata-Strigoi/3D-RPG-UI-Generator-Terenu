@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Projekt3D.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B77B6F1F-3445-4331-8918-DAADF575BF7B}</UniqueIdentifier>
+      <UniqueIdentifier>{B073D529-F799-41A1-8246-17580BED3130}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Projekt3D.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.ignore" />
     <None Include="..\..\Projekt3D.code-workspace" />
     <Filter Include="Config">
-      <UniqueIdentifier>{A23BDAAF-8E35-4CBF-B471-911C2380ADC6}</UniqueIdentifier>
+      <UniqueIdentifier>{33E83A7B-BF8C-46BB-96A6-2ED8D0242FAD}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,7 +29,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Projekt3D">
-      <UniqueIdentifier>{09433494-8084-4A14-BF9C-2CF871DB6827}</UniqueIdentifier>
+      <UniqueIdentifier>{D07236B6-8E15-4048-B88F-6867F588D97B}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Projekt3D\AASDSDADSA.cpp">
       <Filter>Source\Projekt3D</Filter>

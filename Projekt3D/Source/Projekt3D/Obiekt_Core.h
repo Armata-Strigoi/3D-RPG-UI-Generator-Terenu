@@ -6,6 +6,9 @@
 #include "Components/ActorComponent.h"
 #include "Camera/PlayerCameraManager.h"
 #include "Kismet/GameplayStatics.h"
+#include "MaterialCompiler.h"
+#include "SceneTypes.h"
+#include "Kismet/KismetMaterialLibrary.h"
 #include "Obiekt_Core.generated.h"
 
 
@@ -17,11 +20,41 @@ class PROJEKT3D_API UObiekt_Core : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	UObiekt_Core();
+	UPROPERTY()
 	APlayerCameraManager *cameraManager;
 
 	UPROPERTY(EditAnywhere,Category="Options")
-	float FOVHide;
+	float hideAngle;
 	
+	UPROPERTY(EditAnywhere,Category="Options")
+	float hideRotation;
+
+	UPROPERTY(EditAnywhere,Category="Options")
+	float hideSpeed;
+	
+	UPROPERTY()
+	bool problematic;
+
+	UPROPERTY()
+	bool acctuallyFullShown;
+
+	UPROPERTY()
+	float opacity;
+
+	UPROPERTY()
+	bool translucent;
+
+	UPROPERTY()
+	UMaterialInstanceDynamic* baseMaterial;
+	
+	UPROPERTY()
+	UMaterialInstanceDynamic* dynamicTranslucentMaterial;
+	
+	UPROPERTY(EditAnywhere,Category="Materials")
+	UMaterial* translucentMaterial;
+
+	UPROPERTY()
+	TArray<UStaticMeshComponent*> components;
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;

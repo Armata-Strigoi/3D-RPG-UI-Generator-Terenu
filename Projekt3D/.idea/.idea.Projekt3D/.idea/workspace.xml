@@ -15,22 +15,36 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Source/Projekt3D/AASDSDADSA.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Private/GameplayStatics.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Private/KismetMaterialLibrary.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Public/MaterialCompiler.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Projekt3D/KopiaElementuTablicy.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/CoreUObject/Public/UObject/Object.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Projekt3D/Projekt3D.Build.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/UMG/Private/Components/Button.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Landscape/Classes/LandscapeComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Projekt3D/KopiaElementuTablicy.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectGlobals.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/UMG/Private/UserWidget.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Developer/Windows/WindowsTargetPlatform/Private/LocalPcTargetDevice.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Private/Components/StaticMeshComponent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Landscape/Classes/Landscape.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Landscape/Private/LandscapeEdit.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Private/Materials/Material.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Developer/TargetPlatform/Public/Interfaces/ITargetDevice.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Classes/Kismet/KismetMathLibrary.inl" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/UMG/Public/Components/Button.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Classes/Components/ActorComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Projekt3D/AASDSDADSA.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Private/Materials/MaterialShared.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Projekt3D/AASDSDADSA.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Public/MaterialExpressionIO.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Private/GameplayStatics.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Projekt3D/Obiekt_Core.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Projekt3D/Obiekt_Core.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/UMG/Private/Components/Button.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Private/World.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Projekt3D/MyCharacterMovement.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectGlobals.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/UMG/Private/UserWidget.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Core/Public/Containers/Array.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Landscape/Private/LandscapeEdit.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Projekt3D/MyCharacterMovement.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -56,9 +70,9 @@
       <option value="$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/UMG/Public/Components/Button.h" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/KozakButton.h" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/KozakButton.cpp" />
+      <option value="$PROJECT_DIR$/Source/Projekt3D/NewStaticMeshComponent.h" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/MyCharacterMovement.cpp" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/Obiekt_Core.h" />
-      <option value="$PROJECT_DIR$/Source/Projekt3D/NewStaticMeshComponent.h" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/Obiekt_Core.cpp" />
     </changedPaths>
   </component>
@@ -331,6 +345,12 @@
       <workItem from="1620328494232" duration="2783000" />
       <workItem from="1620333775826" duration="2479000" />
       <workItem from="1620419026156" duration="2992000" />
+      <workItem from="1620501002641" duration="11049000" />
+      <workItem from="1620512425624" duration="263000" />
+      <workItem from="1620513531752" duration="378000" />
+      <workItem from="1620516048170" duration="90000" />
+      <workItem from="1620516908932" duration="972000" />
+      <workItem from="1620545376450" duration="6205000" />
     </task>
     <servers />
   </component>
