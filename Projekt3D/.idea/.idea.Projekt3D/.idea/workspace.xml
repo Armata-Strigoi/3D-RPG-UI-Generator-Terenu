@@ -15,18 +15,25 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Landscape/Private/Landscape.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Private/KismetMaterialLibrary.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Public/MaterialCompiler.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Private/StaticMesh.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Public/Rendering/StaticMeshVertexBuffer.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Projekt3D/KopiaElementuTablicy.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/CoreUObject/Public/UObject/Object.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Projekt3D/Projekt3D.Build.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Private/PositionVertexBuffer.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Public/Components.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Landscape/Classes/LandscapeComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Projekt3D/KopiaElementuTablicy.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Developer/Windows/WindowsTargetPlatform/Private/LocalPcTargetDevice.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Private/Components/StaticMeshComponent.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Private/Rendering/StaticMeshVertexBuffer.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Landscape/Classes/Landscape.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Private/Materials/Material.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Developer/TargetPlatform/Public/Interfaces/ITargetDevice.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Public/Model.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Classes/Kismet/KismetMathLibrary.inl" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/UMG/Public/Components/Button.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Classes/Components/ActorComponent.h" root0="FORCE_HIGHLIGHTING" />
@@ -41,9 +48,11 @@
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/UMG/Private/Components/Button.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Private/World.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Projekt3D/MyCharacterMovement.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectBase.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectGlobals.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/UMG/Private/UserWidget.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Core/Public/Containers/Array.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Engine/Public/StaticMeshResources.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/Landscape/Private/LandscapeEdit.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Projekt3D/MyCharacterMovement.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -63,20 +72,24 @@
       <option value="$PROJECT_DIR$/Source/Projekt3D/LandscapeGenerator.cpp" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/Test.h" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/Test.cpp" />
-      <option value="$PROJECT_DIR$/Source/Projekt3D/AASDSDADSA.h" />
-      <option value="$PROJECT_DIR$/Source/Projekt3D/AASDSDADSA.cpp" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/KopiaElementuTablicy.cpp" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/KopiaElementuTablicy.h" />
       <option value="$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/UMG/Public/Components/Button.h" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/KozakButton.h" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/KozakButton.cpp" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/NewStaticMeshComponent.h" />
-      <option value="$PROJECT_DIR$/Source/Projekt3D/MyCharacterMovement.cpp" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/Obiekt_Core.h" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/Obiekt_Core.cpp" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/Projekt3D.Build.cs" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/MyActor.cpp" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/MyActor.h" />
+      <option value="$PROJECT_DIR$/Source/Projekt3D/AASDSDADSA.cpp" />
+      <option value="$PROJECT_DIR$/Source/Projekt3D/AASDSDADSA.h" />
+      <option value="$PROJECT_DIR$/Source/Projekt3D/ProceduralGenerator.h" />
+      <option value="$PROJECT_DIR$/Source/Projekt3D/ProceduralGenerator.cpp" />
+      <option value="$PROJECT_DIR$/Source/Projekt3D/chucjucu.h" />
+      <option value="$PROJECT_DIR$/Source/Projekt3D/MyCharacterMovement.cpp" />
+      <option value="$PROJECT_DIR$/Source/Projekt3D/chucjucu.cpp" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1p1h4WLbpb5TtIS617KYLw0ckxO" />
@@ -355,7 +368,7 @@
       <workItem from="1620516908932" duration="972000" />
       <workItem from="1620545376450" duration="6431000" />
       <workItem from="1620587259651" duration="2893000" />
-      <workItem from="1620844493366" duration="2989000" />
+      <workItem from="1620844493366" duration="8631000" />
     </task>
     <servers />
   </component>

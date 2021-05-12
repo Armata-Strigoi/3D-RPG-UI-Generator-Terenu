@@ -8,15 +8,18 @@ AAASDSDADSA::AAASDSDADSA()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	//LSComp = CreateDefaultSubobject<ULandscapeComponent>(TEXT("LSComp"));
+	
+	Root = CreateDefaultSubobject<UBoxComponent>(TEXT("Root"));
+	RootComponent = Root;
 
+	MyMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MyMesh"));
+	MyMesh->AttachTo(RootComponent);
 }
 
 // Called when the game starts or when spawned 
 void AAASDSDADSA::BeginPlay()
 {
 	Super::BeginPlay();
-
 	
 	
 }

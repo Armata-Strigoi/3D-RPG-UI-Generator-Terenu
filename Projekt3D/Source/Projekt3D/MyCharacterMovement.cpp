@@ -130,7 +130,7 @@ void AMyCharacterMovement::Tick(float DeltaTime)
 		}
 	}
 
-	UE_LOG(LogTemp,Display,TEXT("Camera: %f"),cam->GetRelativeRotation().Yaw);
+	//UE_LOG(LogTemp,Display,TEXT("Camera: %f"),cam->GetRelativeRotation().Yaw);
 
 	
 }

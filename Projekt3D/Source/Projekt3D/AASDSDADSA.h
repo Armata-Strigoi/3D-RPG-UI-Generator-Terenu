@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "LandscapeComponent.h"
+#include "Components/BoxComponent.h"
 #include "AASDSDADSA.generated.h"
 
 UCLASS()
@@ -23,6 +23,13 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	UPROPERTY()
+	FVector position;
 	
-	ULandscapeComponent *LSComp;
+	UPROPERTY(EditAnywhere)
+	UShapeComponent* Root;
+    
+	UPROPERTY(EditAnywhere)
+	UStaticMeshComponent* MyMesh;
+
 };

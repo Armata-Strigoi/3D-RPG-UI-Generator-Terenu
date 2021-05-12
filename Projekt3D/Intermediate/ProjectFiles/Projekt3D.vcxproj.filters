@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Projekt3D.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B8B1C732-B09E-4A40-BC7F-1CE32E7440FC}</UniqueIdentifier>
+      <UniqueIdentifier>{04ACCF09-BFA1-4BA5-A268-AF2AB41CB7A4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Projekt3D.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.ignore" />
     <None Include="..\..\Projekt3D.code-workspace" />
     <Filter Include="Config">
-      <UniqueIdentifier>{B8F59FDF-EC06-40B2-B68C-EE6FFCC8582A}</UniqueIdentifier>
+      <UniqueIdentifier>{4AE206DD-C848-45E9-A0FA-06E71A343B20}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,7 +29,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Projekt3D">
-      <UniqueIdentifier>{02D0BBAF-AAE4-4298-8F69-CDD2AC70D312}</UniqueIdentifier>
+      <UniqueIdentifier>{059B8AEB-72D4-4827-BF33-1C195661A675}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Projekt3D\AASDSDADSA.cpp">
       <Filter>Source\Projekt3D</Filter>
@@ -41,6 +41,12 @@
       <Filter>Source\Projekt3D</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Projekt3D\Animacje.h">
+      <Filter>Source\Projekt3D</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Projekt3D\chucjucu.cpp">
+      <Filter>Source\Projekt3D</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Projekt3D\chucjucu.h">
       <Filter>Source\Projekt3D</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Projekt3D\KolizjaGowy.cpp">
@@ -89,6 +95,12 @@
       <Filter>Source\Projekt3D</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Projekt3D\Obiekt_Core.h">
+      <Filter>Source\Projekt3D</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Projekt3D\ProceduralGenerator.cpp">
+      <Filter>Source\Projekt3D</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Projekt3D\ProceduralGenerator.h">
       <Filter>Source\Projekt3D</Filter>
     </ClInclude>
     <None Include="..\..\Source\Projekt3D\Projekt3D.Build.cs">
