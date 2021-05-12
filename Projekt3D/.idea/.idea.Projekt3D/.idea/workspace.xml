@@ -65,7 +65,6 @@
       <option value="$PROJECT_DIR$/Source/Projekt3D/Test.cpp" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/AASDSDADSA.h" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/AASDSDADSA.cpp" />
-      <option value="$PROJECT_DIR$/Source/Projekt3D/Projekt3D.Build.cs" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/KopiaElementuTablicy.cpp" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/KopiaElementuTablicy.h" />
       <option value="$PROJECT_DIR$/../../../../UE4/UE_4.26/Engine/Source/Runtime/UMG/Public/Components/Button.h" />
@@ -75,6 +74,9 @@
       <option value="$PROJECT_DIR$/Source/Projekt3D/MyCharacterMovement.cpp" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/Obiekt_Core.h" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/Obiekt_Core.cpp" />
+      <option value="$PROJECT_DIR$/Source/Projekt3D/Projekt3D.Build.cs" />
+      <option value="$PROJECT_DIR$/Source/Projekt3D/MyActor.cpp" />
+      <option value="$PROJECT_DIR$/Source/Projekt3D/MyActor.h" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1p1h4WLbpb5TtIS617KYLw0ckxO" />
@@ -353,6 +355,7 @@
       <workItem from="1620516908932" duration="972000" />
       <workItem from="1620545376450" duration="6431000" />
       <workItem from="1620587259651" duration="2893000" />
+      <workItem from="1620844493366" duration="2989000" />
     </task>
     <servers />
   </component>
