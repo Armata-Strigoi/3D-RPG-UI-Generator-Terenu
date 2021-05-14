@@ -68,6 +68,7 @@
 "S:\UE4\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
 "S:\UE4\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
 "S:\UE4\UE_4.26\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4Editor\Development\Niagara\UE4Editor-Niagara.lib"
+"S:\UE4\UE_4.26\Engine\Plugins\Runtime\ProceduralMeshComponent\Intermediate\Build\Win64\UE4Editor\Development\ProceduralMeshComponent\UE4Editor-ProceduralMeshComponent.lib"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"

@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Components/BoxComponent.h"
+#include "ProceduralMeshComponent.h"
 #include "AASDSDADSA.generated.h"
 
 UCLASS()
@@ -24,12 +25,13 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	UPROPERTY()
-	FVector position;
+		FVector position;
 	
 	UPROPERTY(EditAnywhere)
-	UShapeComponent* Root;
-    
-	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* MyMesh;
+		UShapeComponent* Root;
+	
+	UPROPERTY(VisibleAnywhere)
+    	UProceduralMeshComponent* proceduralMesh;
 
+	virtual void Test();
 };
