@@ -1,22 +1,22 @@
-S:\Polibuda\S6\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Development\Projekt3D\Definitions.Projekt3D.h
-S:\Polibuda\S6\3D-UE4\Projekt3D\Source\Projekt3D\MyCharacterMovement.h
-S:\UE4\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-S:\UE4\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
-S:\UE4\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
-S:\UE4\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-S:\UE4\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-S:\UE4\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-S:\UE4\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
-S:\UE4\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
-S:\UE4\UE_4.26\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
-S:\UE4\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
-S:\Polibuda\S6\3D-UE4\Projekt3D\Source\Projekt3D\KolizjaGowy.h
-S:\Polibuda\S6\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Inc\Projekt3D\KolizjaGowy.generated.h
-S:\Polibuda\S6\3D-UE4\Projekt3D\Source\Projekt3D\SunSword.h
-S:\Polibuda\S6\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Inc\Projekt3D\SunSword.generated.h
-S:\Polibuda\S6\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Inc\Projekt3D\MyCharacterMovement.generated.h
-S:\UE4\UE_4.26\Engine\Source\Runtime\UnrealAudio\Public\UnrealAudioTypes.h
-S:\UE4\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
-S:\UE4\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
-S:\UE4\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
-S:\UE4\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
+C:\Users\Drq\Documents\GitHub\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Development\Projekt3D\Definitions.Projekt3D.h
+C:\Users\Drq\Documents\GitHub\3D-UE4\Projekt3D\Source\Projekt3D\MyCharacterMovement.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+C:\Users\Drq\Documents\GitHub\3D-UE4\Projekt3D\Source\Projekt3D\KolizjaGowy.h
+C:\Users\Drq\Documents\GitHub\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Inc\Projekt3D\KolizjaGowy.generated.h
+C:\Users\Drq\Documents\GitHub\3D-UE4\Projekt3D\Source\Projekt3D\SunSword.h
+C:\Users\Drq\Documents\GitHub\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Inc\Projekt3D\SunSword.generated.h
+C:\Users\Drq\Documents\GitHub\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Inc\Projekt3D\MyCharacterMovement.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\UnrealAudio\Public\UnrealAudioTypes.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
