@@ -9,7 +9,7 @@
 /**
 * 
 */
-UCLASS()
+UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class PROJEKT3D_API UKolizjaGowy : public UStaticMeshComponent
 {
 	GENERATED_BODY()

@@ -21,7 +21,7 @@ void AASDSDADSA::Test()
 	std::random_device random;
 	std::mt19937 generator(random());
 	std::uniform_real_distribution<> distance(-(this->Max + this->Min)/20.f, (this->Max + this->Min)/20.f);
-	float uvSpace = 1.0f / FMath::Max(this->SizeOfMap, this->SizeOfMap);
+	float uvSpace = 200.f / FMath::Max(this->SizeOfMap, this->SizeOfMap);
 	int v = 0;
 	float vertexOffset = SizeOfPlate * 0.5f;
 	float incrementOffset = 0.0f;

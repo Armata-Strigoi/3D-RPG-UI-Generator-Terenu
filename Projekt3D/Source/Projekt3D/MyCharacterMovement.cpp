@@ -56,16 +56,20 @@ AMyCharacterMovement::AMyCharacterMovement()
 	
 	GetCapsuleComponent()->GetUnscaledCapsuleSize(promien,wysokosc);
 	sunsword = CreateDefaultSubobject<ASunSword>(TEXT("SUNSWORDDS"));
-	kolizja = CreateDefaultSubobject<UKolizjaGowy>(TEXT("KolizjaGowy"));
+	kolizja = CreateDefaultSubobject<UKolizjaGowy>(TEXT("KolizjaGowy1"));
 
 	przygotowanyDoCiecia = false;
 
 	weaponStowed = false;
+	//kolizja->SetRelativeLocation(FVector(0,0,0));
 }
 
 void AMyCharacterMovement::Laduj()
 {
 	FActorSpawnParameters SpawnInfo;
+	kolizja = GetWorld()->SpawnActor<UKolizjaGowy>(FVector::ZeroVector, FRotator::ZeroRotator,SpawnInfo);
+	//kolizja->AttachToComponent(GetCapsuleComponent(),FAttachmentTransformRules::KeepRelativeTransform);
+	//kolizja->SetWorldLocation(FVector(0,0,40));
 	sunsword = GetWorld()->SpawnActor<ASunSword>(FVector::ZeroVector, FRotator::ZeroRotator,SpawnInfo);
 	sunsword->AttachToComponent(GetMesh(),FAttachmentTransformRules::KeepRelativeTransform,FName("index_01_rSocket"));
 	sunsword->SetActorRelativeLocation(FVector(0,25,-40));
@@ -80,6 +84,19 @@ void AMyCharacterMovement::Laduj()
 void AMyCharacterMovement::BeginPlay()
 {
 	Super::BeginPlay();
+	if(this->kolizja)
+	{
+		UE_LOG(LogTemp,Warning,TEXT("X-%lf"),this->kolizja->GetComponentLocation().X);
+		UE_LOG(LogTemp,Warning,TEXT("Y-%lf"),this->kolizja->GetComponentLocation().Y);
+		UE_LOG(LogTemp,Warning,TEXT("Z-%lf"),this->kolizja->GetComponentLocation().Z);
+	}
+	else
+	{
+		UE_LOG(LogTemp,Warning,TEXT("chuj"));
+	}
+	
+	
+	
 	
 }
 
@@ -91,17 +108,21 @@ void AMyCharacterMovement::Tick(float DeltaTime)
 	{
 		Laduj();
 	}
+	if(this->kolizja)
+	{
+		canJump = !this->kolizja->sprawdz();
+		if(wantsToStand)
+		{
+			canStand = !this->kolizja->sprawdz();
+		}
+	}
 	
-	canJump = !this->kolizja->sprawdz();
 	if(canJump && jumping)
 	{
 		Jump();
 	}
 
-	if(wantsToStand)
-	{
-		canStand = !this->kolizja->sprawdz();
-	}
+	
 
 
 	if(toCrouch)

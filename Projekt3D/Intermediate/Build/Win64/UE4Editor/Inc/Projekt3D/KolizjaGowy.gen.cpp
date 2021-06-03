@@ -225,6 +225,8 @@ void EmptyLinkFunctionForGeneratedCodeKolizjaGowy() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UKolizjaGowy_Statics::Class_MetaDataParams[] = {
+		{ "BlueprintSpawnableComponent", "" },
+		{ "ClassGroupNames", "Custom" },
 		{ "Comment", "/**\n* \n*/" },
 		{ "HideCategories", "Object Activation Components|Activation Trigger" },
 		{ "IncludePath", "KolizjaGowy.h" },
@@ -271,7 +273,7 @@ void EmptyLinkFunctionForGeneratedCodeKolizjaGowy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UKolizjaGowy, 769703570);
+	IMPLEMENT_CLASS(UKolizjaGowy, 3714345652);
 	template<> PROJEKT3D_API UClass* StaticClass<UKolizjaGowy>()
 	{
 		return UKolizjaGowy::StaticClass();
