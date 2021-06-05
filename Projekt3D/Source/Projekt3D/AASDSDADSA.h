@@ -4,6 +4,8 @@
 #include "GameFramework/Actor.h"
 #include "Components/BoxComponent.h"
 #include "ProceduralMeshComponent.h"
+#include "Niagara/Public/NiagaraComponent.h"
+#include "NiagaraFunctionLibrary.h"
 #include <random>
 #include "AASDSDADSA.generated.h"
 
@@ -28,28 +30,52 @@ public:
         UShapeComponent* Root;
 
     UFUNCTION()
-        void Test();
+        void BuildMap();
 
+    UFUNCTION()
+        void CreateWater(float level);
+
+    UFUNCTION()
+        double PerlinNoise(FVector2D pozycja);
+
+    UFUNCTION()
+        double InterpolatedNoise(FVector2D pozycja);
+
+    UFUNCTION()
+        double Noise2D(FVector2D pozycja);
+
+    UFUNCTION()
+        double CubicInterpolation(double v0, double v1,double v2, double v3,double x);\
+    
     UPROPERTY()
         UProceduralMeshComponent* proceduralMesh;
 
+    UPROPERTY()
+        UProceduralMeshComponent* waterMesh;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "FX")
+        class UNiagaraSystem* NS;
+    
     UPROPERTY(EditAnywhere)
         int SizeOfMap;
 
     UPROPERTY(EditAnywhere)
         float SizeOfPlate;
 
-	UPROPERTY(EditAnywhere)
-		FVector MapOffset;
-
+    UPROPERTY(EditAnywhere)
+        float Multiplier;
+    
 	UPROPERTY(EditAnywhere)
 		float Frequency;
 
-	UPROPERTY(EditAnywhere)
-		float Multiplier;
+    UPROPERTY(EditAnywhere)
+        float Persistence;
 
     UPROPERTY(EditAnywhere)
-        float Increment;
+        int Octaves;
+    
+    UPROPERTY(EditAnywhere)
+        bool Scale;
 
     UPROPERTY(EditAnywhere)
         float Min;
@@ -58,18 +84,25 @@ public:
         float Max;
 
     UPROPERTY(EditAnywhere)
-        int Octaves;
-
-    UPROPERTY(EditAnywhere)
-        float Persistence;
-
-    UPROPERTY(EditAnywhere)
-        float Redistribution;
+        bool Flat;
     
+
+    UPROPERTY(EditAnywhere)
+        float Increment;
+
+    UPROPERTY(EditAnywhere)
+        bool Water;
+    
+    UPROPERTY(EditAnywhere)
+        float WaterLevel;
+        
+    UMaterial* water;
+    UMaterial* land;
 	TArray<FVector> vertices;
     TArray<FVector> normals;
     TArray<int32> Triangles;
     TArray<FVector2D> UV;
     TArray<FLinearColor> vertexColors;
     TArray<FProcMeshTangent> tangents;
+
 };
