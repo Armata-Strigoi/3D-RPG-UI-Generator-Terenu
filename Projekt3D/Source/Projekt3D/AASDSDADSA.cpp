@@ -135,7 +135,7 @@ double AASDSDADSA::InterpolatedNoise(FVector2D pozycja)
 double AASDSDADSA::PerlinNoise(FVector2D pozycja)
 {
 	double value = 0.0;
-	for(int IndexO = 0; IndexO < this->Octaves; IndexO++)
+	for(int IndexO = 0; IndexO <= this->Octaves; IndexO++)
 	{
 		double frequency = pow(this->Frequency, IndexO);
 		double amplitude = pow(this->Persistence,IndexO);
@@ -150,8 +150,6 @@ void AASDSDADSA::BuildMap()
 {
 	FVector high = FVector(0,0,0);
 	float uvSpace = 200.f / FMath::Max(this->SizeOfMap, this->SizeOfMap);
-	int v = 0;
-	float vertexOffset = SizeOfPlate * 0.5f;
 	float incrementOffset = 0.0f;
 	for(int32 IndexX = 0; IndexX <= this->SizeOfMap; IndexX++)
 	{
@@ -180,10 +178,9 @@ void AASDSDADSA::BuildMap()
 			tangents.Add(FProcMeshTangent(1, 0, 0));
 			vertexColors.Add(FLinearColor(0, 0, 0, 1.0));
 			incrementOffset += this->Increment;
-			v++;
 		}
 	}
-	v=0;
+	int v = 0;
 	for(int32 IndexX = 0; IndexX < this->SizeOfMap; IndexX++)
 	{
 		for(int32 IndexY = 0; IndexY < this->SizeOfMap; IndexY++)

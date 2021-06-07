@@ -92,7 +92,7 @@ void AMyCharacterMovement::BeginPlay()
 	}
 	else
 	{
-		UE_LOG(LogTemp,Warning,TEXT("chuj"));
+		UE_LOG(LogTemp,Warning,TEXT("Nie ma kolizji"));
 	}
 	
 	
