@@ -6,37 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3faf9f0-34ee-4b3d-b1f9-4f8d0cfaf62f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Projekt3D-0050.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Projekt3D-0051.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Projekt3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Projekt3D/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Projekt3D-0050.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Projekt3D-0050.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Projekt3D-0051.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-Projekt3D-0051.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor.modules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Maps/Minimal_Default.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/Maps/Minimal_Default.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Test/NewMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Test/NewMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/Projekt3DEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/Projekt3DEditor/Development/DependencyCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/Projekt3DEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/Projekt3DEditor/Development/Makefile.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/Projekt3DEditor/Development/Metadata-HotReload.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/Projekt3DEditor/Development/Metadata-HotReload.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/Projekt3DEditor/Development/Projekt3DEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/Projekt3DEditor/Development/Projekt3DEditor.uhtmanifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Projekt3D/MyCharacterMovement.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Development/Projekt3D/MyCharacterMovement.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Projekt3D/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/Projekt3D/Timestamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto4.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto4.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto5.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto5.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto6.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto6.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto7.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto7.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/Editor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/Editor.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/Projekt3D.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/Projekt3D.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Projekt3D/AASDSDADSA.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Projekt3D/AASDSDADSA.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Projekt3D/AASDSDADSA.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Projekt3D/AASDSDADSA.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Projekt3D/MyCharacterMovement.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Projekt3D/MyCharacterMovement.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,8 +73,8 @@
       <option value="$PROJECT_DIR$/Source/Projekt3D/MyCharacterMovement.h" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/MyCharacterMovement.cpp" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/Projekt3D.Build.cs" />
-      <option value="$PROJECT_DIR$/Source/Projekt3D/AASDSDADSA.h" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/AASDSDADSA.cpp" />
+      <option value="$PROJECT_DIR$/Source/Projekt3D/AASDSDADSA.h" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1p1h4WLbpb5TtIS617KYLw0ckxO" />
@@ -411,6 +385,7 @@
       <workItem from="1623002937408" duration="197000" />
       <workItem from="1623059032070" duration="6075000" />
       <workItem from="1623074727170" duration="1407000" />
+      <workItem from="1623080859108" duration="773000" />
     </task>
     <servers />
   </component>
