@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Projekt3D.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{98F33C1F-137B-437E-AAC8-7C19C2E73087}</UniqueIdentifier>
+      <UniqueIdentifier>{4598CB47-7518-4E7D-9703-14FF52DEA68A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Projekt3D.Target.cs">
       <Filter>Source</Filter>
@@ -14,12 +14,9 @@
     <None Include="..\..\.ignore" />
     <None Include="..\..\Projekt3D.code-workspace" />
     <Filter Include="Config">
-      <UniqueIdentifier>{A39EFB34-45CD-44E5-97A5-2A7894144997}</UniqueIdentifier>
+      <UniqueIdentifier>{385D11C2-8592-4A02-AB23-7D7F747F9392}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEditorSettings.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultEngine.ini">
@@ -32,7 +29,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Projekt3D">
-      <UniqueIdentifier>{D9650B14-C9BF-4105-96BF-EE73923903DF}</UniqueIdentifier>
+      <UniqueIdentifier>{AC5FCEE3-4BEA-4AC4-8ED9-7F6B474AE974}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Projekt3D\AASDSDADSA.cpp">
       <Filter>Source\Projekt3D</Filter>
@@ -113,12 +110,6 @@
       <Filter>Source\Projekt3D</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Projekt3D\Projekt3D.h">
-      <Filter>Source\Projekt3D</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Projekt3D\ReverseForLoop.cpp">
-      <Filter>Source\Projekt3D</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Projekt3D\ReverseForLoop.h">
       <Filter>Source\Projekt3D</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Projekt3D\SunSword.cpp">

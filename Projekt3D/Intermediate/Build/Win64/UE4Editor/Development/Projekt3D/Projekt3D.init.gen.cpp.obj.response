@@ -230,8 +230,8 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I C:\Users\Drq\Documents\GitHub\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Inc\Projekt3D
-/I C:\Users\Drq\Documents\GitHub\3D-UE4\Projekt3D\Source
+/I S:\Polibuda\S6\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Inc\Projekt3D
+/I S:\Polibuda\S6\3D-UE4\Projekt3D\Source
 /I ..\Plugins\FX\Niagara\Intermediate\Build\Win64\UE4Editor\Inc\Niagara
 /I ..\Plugins\FX\Niagara\Source
 /I ..\Plugins\FX\Niagara\Source\Niagara\Classes
@@ -273,18 +273,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE"
+/I "S:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"C:\Users\Drq\Documents\GitHub\3D-UE4\Projekt3D\Intermediate\Build\Win64\Projekt3DEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\Drq\Documents\GitHub\3D-UE4\Projekt3D\Intermediate\Build\Win64\Projekt3DEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\Drq\Documents\GitHub\3D-UE4\Projekt3D\Intermediate\Build\Win64\Projekt3DEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\Drq\Documents\GitHub\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Inc\Projekt3D\Projekt3D.init.gen.cpp"
-/FI"C:\Users\Drq\Documents\GitHub\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Development\Projekt3D\Definitions.Projekt3D.h"
-/Fo"C:\Users\Drq\Documents\GitHub\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Development\Projekt3D\Projekt3D.init.gen.cpp.obj"
+/FI"S:\Polibuda\S6\3D-UE4\Projekt3D\Intermediate\Build\Win64\Projekt3DEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"S:\Polibuda\S6\3D-UE4\Projekt3D\Intermediate\Build\Win64\Projekt3DEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"S:\Polibuda\S6\3D-UE4\Projekt3D\Intermediate\Build\Win64\Projekt3DEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"S:\Polibuda\S6\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Inc\Projekt3D\Projekt3D.init.gen.cpp"
+/FI"S:\Polibuda\S6\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Development\Projekt3D\Definitions.Projekt3D.h"
+/Fo"S:\Polibuda\S6\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Development\Projekt3D\Projekt3D.init.gen.cpp.obj"
 /TP
 /GR-
 /W4

@@ -5,13 +5,7 @@
     <projectFile>Intermediate/ProjectFiles/UE4.vcxproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3faf9f0-34ee-4b3d-b1f9-4f8d0cfaf62f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Projekt3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Projekt3D/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/Projekt3D.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/Projekt3D.log" afterDir="false" />
-    </list>
+    <list default="true" id="a3faf9f0-34ee-4b3d-b1f9-4f8d0cfaf62f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,15 +23,14 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Source/Projekt3D/AASDSDADSA.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Projekt3D/MyCharacterMovement.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Projekt3D/KopiaElementuTablicy.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Projekt3D/Obiekt_Core.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Projekt3D/MyCharacterMovement.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/Projekt3D/Obiekt_Core.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Projekt3D/KopiaElementuTablicy.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/Projekt3D/AASDSDADSA.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/Projekt3D/KopiaElementuTablicy.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/Projekt3D/MyCharacterMovement.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files (x86)/Windows Kits/10/Include/10.0.19041.0/ucrt/corecrt_math.h" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/Projekt3D/MyCharacterMovement.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/Projekt3D/Obiekt_Core.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/Projekt3D/AASDSDADSA.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/Projekt3D/Obiekt_Core.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -71,10 +64,10 @@
       <option value="$PROJECT_DIR$/Source/Projekt3D/ReverseForLoop.h" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/KolizjaGowy.h" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/MyCharacterMovement.h" />
-      <option value="$PROJECT_DIR$/Source/Projekt3D/MyCharacterMovement.cpp" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/Projekt3D.Build.cs" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/AASDSDADSA.cpp" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/AASDSDADSA.h" />
+      <option value="$PROJECT_DIR$/Source/Projekt3D/MyCharacterMovement.cpp" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1p1h4WLbpb5TtIS617KYLw0ckxO" />
@@ -386,6 +379,10 @@
       <workItem from="1623059032070" duration="6075000" />
       <workItem from="1623074727170" duration="1407000" />
       <workItem from="1623080859108" duration="773000" />
+      <workItem from="1623427005520" duration="258000" />
+      <workItem from="1623427406901" duration="3000" />
+      <workItem from="1623428126950" duration="1000" />
+      <workItem from="1623428514229" duration="436000" />
     </task>
     <servers />
   </component>

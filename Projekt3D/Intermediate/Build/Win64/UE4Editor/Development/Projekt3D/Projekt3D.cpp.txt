@@ -1,2 +1,2 @@
-C:\Users\Drq\Documents\GitHub\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Development\Projekt3D\Definitions.Projekt3D.h
-C:\Users\Drq\Documents\GitHub\3D-UE4\Projekt3D\Source\Projekt3D\Projekt3D.h
+S:\Polibuda\S6\3D-UE4\Projekt3D\Intermediate\Build\Win64\UE4Editor\Development\Projekt3D\Definitions.Projekt3D.h
+S:\Polibuda\S6\3D-UE4\Projekt3D\Source\Projekt3D\Projekt3D.h

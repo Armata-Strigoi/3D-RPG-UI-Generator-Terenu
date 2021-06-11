@@ -7,13 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{94A6C6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{8E2F6A87-1826-34F4-940C-CC23A48F9FE4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE4", "Intermediate\ProjectFiles\UE4.vcxproj", "{C3E6B32B-038C-4F33-B2D0-88025554E28D}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Projekt3D", "Intermediate\ProjectFiles\Projekt3D.vcxproj", "{5504FA29-64E1-4606-B4E4-991445E13721}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE4", "Intermediate\ProjectFiles\UE4.vcxproj", "{C3E6B32B-038C-4F33-B2D0-88025554E28D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{1CCEC849-CC72-4C59-8C36-2F7C38706D4C}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\..\..\Program Files\Epic Games\UE_4.26\Engine\Extras\VisualStudioDebugging\UE4.natvis = ..\..\..\..\..\..\Program Files\Epic Games\UE_4.26\Engine\Extras\VisualStudioDebugging\UE4.natvis
+		..\..\..\..\UE4\UE_4.26\Engine\Extras\VisualStudioDebugging\UE4.natvis = ..\..\..\..\UE4\UE_4.26\Engine\Extras\VisualStudioDebugging\UE4.natvis
 	EndProjectSection
 EndProject
 Global
@@ -30,16 +30,6 @@ Global
 		Shipping|Win64 = Shipping|Win64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C3E6B32B-038C-4F33-B2D0-88025554E28D}.DebugGame Editor|Win32.ActiveCfg = BuiltWithUnrealBuildTool|Win32
-		{C3E6B32B-038C-4F33-B2D0-88025554E28D}.DebugGame Editor|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win32
-		{C3E6B32B-038C-4F33-B2D0-88025554E28D}.DebugGame|Win32.ActiveCfg = BuiltWithUnrealBuildTool|Win32
-		{C3E6B32B-038C-4F33-B2D0-88025554E28D}.DebugGame|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win32
-		{C3E6B32B-038C-4F33-B2D0-88025554E28D}.Development Editor|Win32.ActiveCfg = BuiltWithUnrealBuildTool|Win32
-		{C3E6B32B-038C-4F33-B2D0-88025554E28D}.Development Editor|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win32
-		{C3E6B32B-038C-4F33-B2D0-88025554E28D}.Development|Win32.ActiveCfg = BuiltWithUnrealBuildTool|Win32
-		{C3E6B32B-038C-4F33-B2D0-88025554E28D}.Development|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win32
-		{C3E6B32B-038C-4F33-B2D0-88025554E28D}.Shipping|Win32.ActiveCfg = BuiltWithUnrealBuildTool|Win32
-		{C3E6B32B-038C-4F33-B2D0-88025554E28D}.Shipping|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win32
 		{5504FA29-64E1-4606-B4E4-991445E13721}.DebugGame Editor|Win32.ActiveCfg = Invalid|Win32
 		{5504FA29-64E1-4606-B4E4-991445E13721}.DebugGame Editor|Win64.ActiveCfg = DebugGame_Editor|x64
 		{5504FA29-64E1-4606-B4E4-991445E13721}.DebugGame Editor|Win64.Build.0 = DebugGame_Editor|x64
@@ -58,6 +48,16 @@ Global
 		{5504FA29-64E1-4606-B4E4-991445E13721}.Shipping|Win32.Build.0 = Shipping|Win32
 		{5504FA29-64E1-4606-B4E4-991445E13721}.Shipping|Win64.ActiveCfg = Shipping|x64
 		{5504FA29-64E1-4606-B4E4-991445E13721}.Shipping|Win64.Build.0 = Shipping|x64
+		{C3E6B32B-038C-4F33-B2D0-88025554E28D}.DebugGame Editor|Win32.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{C3E6B32B-038C-4F33-B2D0-88025554E28D}.DebugGame Editor|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{C3E6B32B-038C-4F33-B2D0-88025554E28D}.DebugGame|Win32.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{C3E6B32B-038C-4F33-B2D0-88025554E28D}.DebugGame|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{C3E6B32B-038C-4F33-B2D0-88025554E28D}.Development Editor|Win32.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{C3E6B32B-038C-4F33-B2D0-88025554E28D}.Development Editor|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{C3E6B32B-038C-4F33-B2D0-88025554E28D}.Development|Win32.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{C3E6B32B-038C-4F33-B2D0-88025554E28D}.Development|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{C3E6B32B-038C-4F33-B2D0-88025554E28D}.Shipping|Win32.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{C3E6B32B-038C-4F33-B2D0-88025554E28D}.Shipping|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
