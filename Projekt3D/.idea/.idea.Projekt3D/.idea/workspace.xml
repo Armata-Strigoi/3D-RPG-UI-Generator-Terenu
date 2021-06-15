@@ -58,7 +58,6 @@
       <option value="$PROJECT_DIR$/Source/Projekt3D/MyActor.h" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/ProceduralGenerator.h" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/ProceduralGenerator.cpp" />
-      <option value="$PROJECT_DIR$/Source/Projekt3D/chucjucu.cpp" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/chucjucu.h" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/ReverseForLoop.cpp" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/ReverseForLoop.h" />
@@ -68,6 +67,9 @@
       <option value="$PROJECT_DIR$/Source/Projekt3D/AASDSDADSA.cpp" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/AASDSDADSA.h" />
       <option value="$PROJECT_DIR$/Source/Projekt3D/MyCharacterMovement.cpp" />
+      <option value="$PROJECT_DIR$/Source/Projekt3D/chucjucu.cpp" />
+      <option value="$PROJECT_DIR$/Source/Projekt3D/Cos.h" />
+      <option value="$PROJECT_DIR$/Source/Projekt3D/Cos.cpp" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1p1h4WLbpb5TtIS617KYLw0ckxO" />
@@ -383,6 +385,7 @@
       <workItem from="1623427406901" duration="3000" />
       <workItem from="1623428126950" duration="1000" />
       <workItem from="1623428514229" duration="436000" />
+      <workItem from="1623678441390" duration="2274000" />
     </task>
     <servers />
   </component>

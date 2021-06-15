@@ -844,3 +844,5 @@ Projekt3D/Content/JUPITER_SciFi_Kit/Textures/T_Noise_3_M.uasset
 Projekt3D/Content/JUPITER_SciFi_Kit/Textures/T_Noise_3_N.uasset
 Projekt3D/Content/JUPITER_SciFi_Kit/Textures/T_Noise_4_M.uasset
 Projekt3D/Content/JUPITER_SciFi_Kit/Textures/T_Noise_4_N.uasset
+*.pdb
+Projekt3D/Binaries/Win64/UE4Editor-Projekt3D-0001.pdb
